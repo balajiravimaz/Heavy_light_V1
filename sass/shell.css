@@ -366,28 +366,28 @@ button:focus {
     margin-bottom: 15px !important;
 
 } */
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   .home {
     gap: 5px !important;
     padding: 5px 10px !important;
   }
 }
 
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   .home-go-to {
     width: 35px !important;
     height: 35px !important;
   }
 }
 
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   .music {
     width: 35px !important;
     height: 35px !important;
   }
 }
 
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   .information-icon {
     width: 35px !important;
     height: 35px !important;
@@ -495,7 +495,7 @@ html {
     -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 0, 0);
   }
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 4px;
@@ -628,7 +628,7 @@ html {
   align-items: center;
   gap: 10px;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns {
     padding: 5px 10px;
   }
@@ -638,7 +638,7 @@ html {
   width: 50px;
   height: 50px;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .music {
     width: 35px;
     height: 35px;
@@ -650,7 +650,7 @@ html {
   background: url(../assets/images/music.png) no-repeat;
   background-size: contain;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .music.playing {
     width: 35px;
     height: 35px;
@@ -662,7 +662,7 @@ html {
   background: url(../assets/images/pause.png) no-repeat;
   background-size: contain;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .music.mute {
     width: 35px;
     height: 35px;
@@ -674,7 +674,7 @@ html {
   background: url("../assets/images/info.png") no-repeat;
   background-size: contain;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .introInfo {
     width: 35px;
     height: 35px;
@@ -688,7 +688,7 @@ html {
   transition: transform 0.5s ease-in;
   /* Show tooltip on hover */
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns button {
     width: 35px;
     height: 35px;
@@ -732,7 +732,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-text-content {
     gap: 0px;
   }
@@ -750,7 +750,7 @@ html {
   font-weight: normal;
   line-height: 1;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-header-container {
     font-size: 52.5px;
   }
@@ -762,7 +762,7 @@ html {
   box-sizing: border-box;
   font-family: "Alphakind", Arial, sans-serif;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-header-container span {
     font-size: 52.5px;
   }
@@ -776,7 +776,7 @@ html {
   background-repeat: no-repeat;
   animation: slowInFastOut 2s ease-in-out infinite;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .instruction {
     width: calc(100% - 70px);
   }
@@ -793,7 +793,7 @@ html {
   background-size: contain;
   transition: transform 0.5s ease-in;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #f_launchBtn {
     width: 70px;
     height: 70px;
@@ -1336,7 +1336,7 @@ footer p {
   right: 15px;
   gap: 5px;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main {
     top: 5px;
     right: 5px;
@@ -1356,7 +1356,7 @@ footer p {
   /* margin-top: 15px; */
   display: block;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main #f_companyLogo_main {
     width: 80px;
   }
@@ -1366,7 +1366,7 @@ footer p {
   width: 130px;
   height: auto;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main #f_companyLogo_main img {
     width: 80px;
   }
@@ -1379,7 +1379,7 @@ footer p {
   cursor: pointer;
   /* Show tooltip on hover */
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main .full-screen {
     width: 35px;
     height: 35px;
@@ -1480,7 +1480,7 @@ footer p {
   min-width: auto;
   justify-content: center;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header {
     width: 130px !important;
     height: 50px !important;
@@ -1641,7 +1641,7 @@ footer p {
   transition: transform 0.5s ease-in-out;
   /* Show tooltip on hover */
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #introPopup .popup-content .introPopclose {
     top: 15px;
     right: 60px;
@@ -1689,7 +1689,7 @@ footer p {
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #introPopup .popup-content .introPopAudio {
     width: 20px;
     height: 20px;
@@ -1744,7 +1744,7 @@ footer p {
       background: #ffe600;
   }*/
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header #f_companyLogo {
     width: 80px;
   }
@@ -1754,7 +1754,7 @@ footer p {
   width: 130px;
   height: auto;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header #f_companyLogo .logo-bg-patch img {
     width: 80px;
   }
@@ -1768,7 +1768,7 @@ footer p {
   top: 2px;
   /* Show tooltip on hover */
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header .full-screen {
     width: 35px;
     top: 0px;
@@ -3408,7 +3408,7 @@ footer p {
   height: 300px;
   overflow-y: auto;
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_glossaryPopup > #f_glossaryContainer > #f_glossaryContent #glossaryPopup > table tbody {
     height: 230px;
     overflow-y: auto;
@@ -3694,7 +3694,7 @@ footer p {
     overflow: auto;
   }
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_helpPopup #f_helpContainer #f_helpContent {
     height: calc(100% - 40px) !important;
     overflow: auto;
@@ -3928,7 +3928,7 @@ footer p {
     height: 120px !important;
   }
 }
-@media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_helpPopup #f_helpContainer #f_helpContent .help_box {
     width: 50% !important;
     height: 150px !important;

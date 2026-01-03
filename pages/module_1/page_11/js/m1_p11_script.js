@@ -99,7 +99,7 @@ function addSectionData() {
 
             let htmlObj = '',
                 imgObj =
-                    "<div class='game-completed'> <div class='success'></div><div class='greetingsPop'></div><div class='game-completed-popup'><button class='replay' data-tooltip='Replay'></button><button data-tooltip='Back' class='home'></button></div> </div>" +
+                    "<div class='game-completed'> <div class='success'></div><div class='greetingsPop'></div><div class='game-completed-popup'><div class='game'><div class='navBtns'><button class='replay' data-tooltip='Replay'></button><button data-tooltip='Back' class='home'></button></div></div></div> </div>" +
                     "<div class='game-container'>" +
                     "<div class='dummy-box'></div>" +
                     "<div class='box'>" +

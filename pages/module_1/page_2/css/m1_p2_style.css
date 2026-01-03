@@ -18,14 +18,6 @@ $dark-bg-round-image:  radial-gradient(rgba(196, 196, 205, 0.24), rgba(176, 196,
 /*$bg-size: 250px 250px;
 $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 /*theme 3 boxtheme*/
-/* $mobile-width-portrait-small: 320px;
-$mobile-width-portrait-big: 434px;
-$mobile-width-landscape-small: 568px;
-$mobile-width-landscape-big: 736px;
-
-$tablet-width: 768px;
-$desktop-width: 1024px;
- */
 .f_page_content {
   position: absolute;
   width: 100%;
@@ -178,7 +170,7 @@ $desktop-width: 1024px;
   height: 100%;
   margin-bottom: 5%;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container {
     width: calc(100% - 0px);
   }
@@ -315,7 +307,7 @@ $desktop-width: 1024px;
   width: 50%;
   margin-right: 50px;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .top-alignText {
     margin-right: 20px;
   }
@@ -328,9 +320,10 @@ $desktop-width: 1024px;
   align-items: start;
   justify-content: end;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
     height: 70px;
+    margin-bottom: 10px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .i-txt-toolTip {
@@ -697,7 +690,7 @@ $desktop-width: 1024px;
   background-repeat: no-repeat;
   cursor: pointer;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_1 {
     width: 30px !important;
     height: 30px !important;
@@ -716,7 +709,7 @@ $desktop-width: 1024px;
   background-repeat: no-repeat;
   cursor: pointer;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_2 {
     width: 30px !important;
     height: 30px !important;
@@ -735,7 +728,7 @@ $desktop-width: 1024px;
   background-repeat: no-repeat;
   cursor: pointer;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_3 {
     width: 30px !important;
     height: 30px !important;
@@ -769,7 +762,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_1_popup .overlay-layer {
     width: 350px;
     height: 100%;
@@ -829,7 +822,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_1_popup .overlay-layer .text-pos {
     width: 350px;
     height: 100%;
@@ -904,7 +897,7 @@ $desktop-width: 1024px;
   background-size: contain;
   cursor: pointer;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_1_popup .close_ins_1_popup {
     top: 75px;
     right: 65px;
@@ -929,7 +922,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_2_popup .overlay-layer {
     width: 350px;
     height: 100%;
@@ -954,7 +947,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_2_popup .overlay-layer .text-pos {
     width: 350px;
     height: 100%;
@@ -1030,7 +1023,7 @@ $desktop-width: 1024px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_2_popup .close_ins_2_popup {
     top: 75px;
     right: 65px;
@@ -1086,7 +1079,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_3_popup .overlay-layer {
     width: 350px;
     height: 100%;
@@ -1111,7 +1104,7 @@ $desktop-width: 1024px;
   top: 0%;
   margin: 0 auto;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_3_popup .overlay-layer .text-pos {
     width: 350px;
     height: 100%;
@@ -1187,7 +1180,7 @@ $desktop-width: 1024px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .ins_3_popup .close_ins_3_popup {
     top: 75px;
     right: 65px;
@@ -1231,7 +1224,7 @@ $desktop-width: 1024px;
   top: 115px !important;
   left: 75px !important;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .audio-style {
     top: 85px !important;
     left: 45px !important;
@@ -1242,7 +1235,7 @@ $desktop-width: 1024px;
   height: 40px !important;
   transition: transform 0.5s ease-in-out !important;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .mute {
     width: 30px !important;
     height: 30px !important;
@@ -1256,7 +1249,7 @@ $desktop-width: 1024px;
   height: 40px !important;
   transition: transform 0.5s ease-in-out !important;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .unmute {
     width: 30px !important;
     height: 30px !important;
@@ -1307,7 +1300,7 @@ $desktop-width: 1024px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   #introPopup-1 .popup-content .introPopclose {
     top: 15px;
     right: 60px;
@@ -1355,7 +1348,7 @@ $desktop-width: 1024px;
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 568px) and (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   #introPopup-1 .popup-content .introPopAudio {
     width: 20px;
     height: 20px;

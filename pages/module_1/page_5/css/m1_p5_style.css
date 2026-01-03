@@ -173,7 +173,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   bottom: 0;
   width: 100%;
   height: 100%;
-  z-index: 1111;
+  z-index: 1111111;
   opacity: 0;
   visibility: hidden;
   background: url("../images/confetti.gif") no-repeat center;
@@ -403,6 +403,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body {
     display: flex;
     height: 100%;
+    max-height: 260px;
     margin-top: 10px;
     padding-left: 2%;
     padding-right: 2%;
@@ -470,7 +471,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap {
-    height: 85px;
+    height: 90px;
     padding: 5px 15px 0 10px;
     max-width: 500px !important;
   }
@@ -672,7 +673,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding p {
-    font-size: 16px;
+    font-size: 24px;
+    bottom: 80px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding.active p {
@@ -688,6 +690,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   bottom: 100%;
   left: 100%;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding.active:after {
+    left: 90%;
+    width: 50px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding.active::before {
   content: "";
   position: absolute;
@@ -701,6 +709,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding.active::before {
     width: 140px;
     height: 140px;
+  }
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding.active::before {
+    width: 120px;
+    height: 120px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding {
@@ -737,7 +751,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding p {
-    font-size: 16px;
+    font-size: 24px;
+    bottom: 80px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active p {
@@ -753,6 +768,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   bottom: 100%;
   left: 100%;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active:after {
+    left: 90%;
+    width: 50px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active::before {
   content: "";
   position: absolute;
@@ -766,6 +787,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active::before {
     width: 140px;
     height: 140px;
+  }
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .right-holding.active::before {
+    width: 120px;
+    height: 120px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding #movingImg-1 {
@@ -803,7 +830,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
     width: 30%;
-    height: calc(100% - 50px);
+    height: calc(100% - 30px);
+    max-width: 210px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container {
@@ -880,6 +908,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background: transparent;
   cursor: pointer;
   width: 100px;
+  height: 70px;
   position: relative;
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn:hover img {
@@ -899,6 +928,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn {
     width: 70px;
+    max-width: 80px;
+    height: 60px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 {
@@ -906,18 +937,23 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 {
-    width: 60px;
+    bottom: 0;
   }
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 img {
     width: 50px;
   }
 }
+@media (max-width: 950px) and (orientation: landscape) and (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-1 img {
+    width: 60px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-2 img {
-  width: 35px;
+  width: 45px;
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-2 img {
-    width: 30px;
+    width: 35px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-3 img {
@@ -925,7 +961,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-3 img {
-    width: 35px;
+    width: 30px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-4 img {
@@ -933,15 +969,15 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-4 img {
-    width: 50px;
+    width: 55px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-5 img {
-  width: 45px;
+  width: 55px;
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-5 img {
-    width: 40px;
+    width: 45px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-6 img {
@@ -949,7 +985,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn#btn-6 img {
-    width: 40px;
+    width: 35px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup {
@@ -960,7 +996,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -984,6 +1020,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   animation: slowInFastOut 4s ease-in-out infinite;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap {
+    width: 350px;
+    height: 250px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns {
   position: absolute;
   top: 80%;
@@ -992,6 +1034,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
   gap: 30px;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns {
+    top: 83%;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns #refresh {
   position: relative;
@@ -1068,6 +1115,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   transition: 0.5s ease-in-out;
   animation: none !important;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns button {
+    width: 40px;
+    height: 40px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns button:hover {
   transform: scale(1.125);
 }
@@ -1088,7 +1141,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1109,6 +1162,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-size: contain;
   position: relative;
   background-position: center;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .greetingsPop .popup-wrap {
+    width: 350px;
+    height: 350px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .greetingsPop .popup-wrap .popup-text {
   width: 100%;

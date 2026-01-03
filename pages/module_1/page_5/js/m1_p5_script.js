@@ -819,8 +819,8 @@ function onClickHanlder(e) {
 var widths;
 
 // Mobile landscape
-if (window.matchMedia("(orientation: landscape) and (max-width: 767px)").matches) {
-  widths = [60, 25, 35, 50, 40, 45];
+if (window.matchMedia("(orientation: landscape) and (max-width: 950px)").matches) {
+  widths = [60, 30, 35, 50, 40, 45];
 
 // Tablet landscape
 } else if (window.matchMedia("(orientation: landscape) and (max-width: 1024px)").matches) {

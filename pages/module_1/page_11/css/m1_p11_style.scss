@@ -71,9 +71,11 @@
 						padding: 20px;
 						background-position: center;
 						background-size: contain;
+
 						@include mobile-landscape {
 							height: 50px;
 						}
+
 						.navBtns {
 							position: absolute;
 							left: 0;
@@ -83,6 +85,7 @@
 							top: 18px;
 							justify-content: flex-start;
 							align-items: center;
+
 							@include mobile-landscape {
 								padding: 0 15px;
 								top: 5px;
@@ -98,6 +101,7 @@
 								cursor: pointer;
 								position: relative;
 								transition: transform 0.5s ease-in-out;
+
 								@include mobile-landscape {
 									width: 35px;
 									height: 35px;
@@ -252,6 +256,7 @@
 
 							img {
 								width: 330px;
+
 								@include mobile-landscape {
 									width: 270px;
 								}
@@ -259,13 +264,13 @@
 						}
 					}
 
-					& > .main-text {
+					&>.main-text {
 						display: flex !important;
 						align-items: center;
 						justify-content: center;
 						width: calc(100% - 400px);
 
-						& > h1 {
+						&>h1 {
 							position: relative;
 							font-weight: bold;
 							margin-bottom: 1% !important;
@@ -289,7 +294,7 @@
 					.ost-txt {
 						opacity: 0;
 
-						& > p {
+						&>p {
 							// opacity: 0;
 							color: $white;
 
@@ -298,16 +303,18 @@
 						}
 					}
 
-					& > .body {
+					&>.body {
 						position: relative;
 						display: flex;
 						flex-direction: column;
 						justify-content: center;
 						align-items: center;
 						width: 100%;
+
 						@include mobile-landscape {
 							height: calc(100% - 60px);
 						}
+
 						.dummypatch {
 							position: absolute;
 							width: 100%;
@@ -318,12 +325,12 @@
 							opacity: 0;
 						}
 
-						& > .text-container {
+						&>.text-container {
 							opacity: 0;
 							//padding: 20px;
 							//background: linear-gradient(125deg, rgb(85, 85, 86, 0.3) 48%, rgb(47, 47, 48, 0.3) 100%);
 
-							& > p {
+							&>p {
 								// opacity: 0;
 								color: $white;
 
@@ -343,11 +350,11 @@
 								}
 							}
 
-							& > ul {
+							&>ul {
 								margin-left: 40px;
 								list-style-type: none;
 
-								& > li {
+								&>li {
 									position: relative;
 									font-size: $page-font-size;
 									line-height: 19px;
@@ -368,7 +375,7 @@
 							}
 						}
 
-						& > .image-container {
+						&>.image-container {
 							display: flex;
 							/* gap: 20px; */
 							position: relative;
@@ -434,10 +441,10 @@
 								background-repeat: no-repeat;
 							}
 
-							& > .active {
+							&>.active {
 								// border: 1px solid $ey-yellow;
 
-								& > p {
+								&>p {
 									/* background-color: $ey-yellow !important;
 									color: $ey-black; */
 								}
@@ -454,6 +461,7 @@
 							// font-weight: bold;
 							text-align: center;
 							max-width: 550xp;
+
 							@include mobile-landscape {
 								font-size: 16px;
 							}
@@ -484,6 +492,7 @@
 							align-items: center;
 							margin: 15px;
 							height: 40px;
+
 							@include mobile-landscape {
 								margin: 5px;
 								height: auto;
@@ -496,14 +505,17 @@
 							height: 100%;
 							justify-content: space-around;
 							align-items: center;
+
 							@include mobile-landscape {
 								justify-content: space-evenly;
 							}
+
 							.instruction {
 								color: #819da7;
 								font-size: 32px;
 								// font-weight: bold;
 								text-align: center;
+
 								@include mobile-landscape {
 									font-size: 16px;
 									justify-content: space-evenly;
@@ -535,9 +547,10 @@
 								background-position: center;
 								background-size: contain;
 								background-repeat: no-repeat;
+
 								@include mobile-landscape {
 									width: 180px;
-									height: 180px;
+									height: 220px;
 								}
 							}
 						}
@@ -550,6 +563,11 @@
 							justify-content: space-evenly;
 							grid-template-columns: repeat(3, 1fr);
 							margin-left: 16px;
+
+							@include mobile-landscape {
+								width: 160px;
+								height: 170px;
+							}
 
 							// .object {
 							// width: 100px;
@@ -568,36 +586,60 @@
 								width: 96px;
 								height: 96px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 50px;
+								}
 							}
 
 							#stone {
 								width: 95px;
 								height: 47px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 60px;
+								}
 							}
 
 							#car {
 								width: 120px;
 								height: 83px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 60px;
+								}
 							}
 
 							#chair {
 								width: 75px;
 								height: 145px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 35px;
+								}
 							}
 
 							#flower {
 								width: 80px;
 								height: 107px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 45px;
+								}
 							}
 
 							#sponge {
 								width: 95px;
 								height: 45px;
 								cursor: grab;
+
+								@include mobile-landscape {
+									width: 60px;
+								}
 							}
 						}
 
@@ -609,6 +651,7 @@
 							font-weight: bold;
 							box-sizing: border-box;
 							font-family: "Alphakind";
+
 							@include mobile-landscape {
 								font-size: 16px;
 								margin: 10px 0;
@@ -624,15 +667,17 @@
 							background-size: contain;
 							background-repeat: no-repeat;
 							background-position: center;
+
 							@include mobile-landscape {
-								width: 200px;
-								height: 180px;
-								border: 1px solid red;
+								width: 240px;
+								height: 200px;
+								// border: 1px solid red;
 							}
 
 							#leaf {
 								width: 96px;
 								height: 96px;
+
 								@include mobile-landscape {
 									width: 46px;
 									height: 46px;
@@ -642,6 +687,7 @@
 							#stone {
 								width: 95px;
 								height: 47px;
+
 								@include mobile-landscape {
 									width: 45px;
 									height: 27px;
@@ -651,6 +697,7 @@
 							#car {
 								width: 120px;
 								height: 83px;
+
 								@include mobile-landscape {
 									width: 60px;
 									height: 43px;
@@ -660,27 +707,30 @@
 							#chair {
 								width: 62px;
 								height: 122px;
+
 								@include mobile-landscape {
-								width: 32px;
-								height: 62px;	
+									width: 32px;
+									height: 62px;
 								}
 							}
 
 							#flower {
 								width: 80px;
 								height: 90px;
+
 								@include mobile-landscape {
-								width: 40px;
-								height: 45px;	
+									width: 40px;
+									height: 45px;
 								}
 							}
 
 							#sponge {
 								width: 95px;
 								height: 45px;
+
 								@include mobile-landscape {
-								width: 47px;
-								height: 25px;	
+									width: 47px;
+									height: 25px;
 								}
 							}
 						}
@@ -769,24 +819,81 @@
 								align-items: center;
 								margin: 0 auto;
 								height: 100%;
+
+								@include mobile-landscape {
+									width: 350px;
+								}
 							}
 
 							.game-completed-popup {
 								position: absolute;
-								width: 40%;
-								height: 456px;
-								top: 59%;
-								left: 52%;
-								background-image: url(../images/gameCompleted.png);
-								background-size: 100%;
-								background-repeat: no-repeat;
-								transform: translate(-50%, -50%) scale(1);
-								animation: zoomPulse 2.8s ease-in-out infinite;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+								width: 450px;
+								height: 350px;
 								display: flex;
-								gap: 5px;
+								justify-content: center;
+								align-items: center;
 								visibility: hidden;
 								opacity: 0;
 								transition: opacity 0.5s ease-in-out;
+
+								.game {
+									position: absolute;
+									background-image: url(../images/gameCompleted.png);
+									background-size: contain;
+									background-repeat: no-repeat;
+									animation: zoomPulse 2.8s ease-in-out infinite;
+									top: 50%;
+									left: 50%;
+									transform: translate(-50%, -50%);
+									width: 450px;
+									height: 400px;
+
+									@include mobile-landscape {
+										width: 350px;
+										height: 250px;
+										top: 50%;
+									}
+
+									.navBtns {
+										display: flex;
+										align-items: flex-end;
+										width: 100%;
+										justify-content: center;
+										position: relative;
+										height: 315px;
+										gap: 30px;
+
+										@include mobile-landscape {
+											width: 350px;
+											gap: 20px;
+											height: 240px;
+										}
+
+										button {
+											@include tablet-landscape {
+												width: 35px !important;
+												height: 35px !important;
+											}
+
+											@include mobile-landscape {
+												width: 35px !important;
+												height: 35px !important;
+											}
+										}
+									}
+								}
+
+
+
+								@include mobile-landscape {
+									max-height: 250px;
+									top: 50%;
+									width: 45%;
+									background-size: contain;
+								}
 
 								@keyframes zoomPulse {
 									0% {
@@ -809,14 +916,13 @@
 								background: url(../images/replay.png);
 								background-repeat: no-repeat;
 								background-size: contain;
-								margin: 1% 0 2% 2%;
 								position: relative;
-								top: 65%;
-								left: 30%;
 								cursor: pointer;
 								background-color: transparent;
 								border: none;
 								transition: 0.5s ease-in-out;
+
+
 
 								&:hover {
 									transform: scale(1.125);
@@ -859,13 +965,10 @@
 								background: url(../images/back.png);
 								background-repeat: no-repeat;
 								background-size: contain;
-								margin: 1% 0 2% 2%;
-								position: relative;
-								top: 65%;
-								left: 35%;
 								cursor: pointer;
 								background-color: transparent;
 								transition: 0.5s ease-in-out;
+
 
 								&:hover {
 									transform: scale(1.125);
@@ -916,6 +1019,7 @@
 							display: flex;
 							justify-content: center;
 							align-items: center;
+
 							@include mobile-landscape {
 								width: 110px;
 								height: 57px;
@@ -966,7 +1070,7 @@
 			text-align: inherit !important;
 			left: inherit !important;
 			box-shadow: inherit !important;
-			
+
 		}
 
 		/* Mute icon */
@@ -1134,6 +1238,7 @@
 		}
 
 		@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+
 			.ins_1_popup,
 			.ins_2_popup,
 			.ins_3_popup,
@@ -1354,6 +1459,7 @@
 		}
 	}
 }
+
 @include mobile-landscape {
 	#f_header {
 		top: 0px !important;

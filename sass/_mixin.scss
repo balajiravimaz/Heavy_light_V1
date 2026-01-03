@@ -125,7 +125,7 @@
 */
 
 @mixin mobile-landscape {
-    @media (min-width: 320px) and (max-width: 736px) and (orientation: landscape) {
+    @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
         @content;
     }
 }
