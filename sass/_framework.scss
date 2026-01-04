@@ -861,6 +861,10 @@ footer {
           color: #000;
           margin-bottom: 10px;
           font-family: "Times New Roman", sans-serif;
+          @include mobile-landscape{
+               font-size: 12px;
+               margin-bottom: 5px;
+          }
      }
 }
 

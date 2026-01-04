@@ -1200,6 +1200,12 @@ footer p {
   margin-bottom: 10px;
   font-family: "Times New Roman", sans-serif;
 }
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  footer p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
 
 .buttonTrap {
   position: absolute;
