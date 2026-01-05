@@ -13,6 +13,9 @@
     {
       "src": "assets/images/main_logo.png"
     },
+     {
+      "src": "assets/images/success.gif"
+    },
     {
       "src": "assets/images/bg_img.png"
     },
@@ -120,10 +123,7 @@
     },
     {
       "src": "pages/module_1/page_3/images/story1.png"
-    },
-    {
-      "src": "pages/module_1/page_5/images/confetti.gif"
-    },
+    },    
     {
       "src": "pages/module_1/page_5/images/img_1.png"
     },
@@ -237,10 +237,7 @@
     },
     {
       "src": "pages/module_1/page_5/images/stars.gif"
-    },
-    {
-      "src": "pages/module_1/page_6/images/confetti.gif"
-    },
+    },    
     {
       "src": "pages/module_1/page_6/images/img_1.png"
     },
@@ -333,10 +330,7 @@
     },
     {
       "src": "pages/module_1/page_6/images/wrong.png"
-    },
-    {
-      "src": "pages/module_1/page_11/images/successes.gif"
-    },
+    },    
     {
       "src": "pages/module_1/page_11/images/back.png"
     },

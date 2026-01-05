@@ -345,7 +345,7 @@ $(document).on('drop', '.drop-area', function (e) {
 });
 
 /* ================= TOUCH SUPPORT (Mobile/iPad) ================= */
-let touchDraggedEl = null;
+var touchDraggedEl = null;
 
 $(document).on('touchstart', '.object', function (e) {
     touchDraggedEl = this;

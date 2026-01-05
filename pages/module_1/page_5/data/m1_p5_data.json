@@ -4,11 +4,7 @@
     "isEmptyAudio": false,
     "audioIndex": 0
   },
-  "bgImgs": [
-    {
-      "imageSRC": "pages/module_1/page_5/images/confetti.gif",
-      "altText": ""
-    },
+  "bgImgs": [    
     {
       "imageSRC": "pages/module_1/page_5/images/img_1.png",
       "altText": ""

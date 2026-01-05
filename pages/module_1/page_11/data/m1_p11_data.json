@@ -4,11 +4,7 @@
 		"isEmptyAudio": false,
 		"audioIndex": 0
 	},
-"bgImgs": [
-    {
-      "imageSRC": "pages/module_1/page_11/images/successes.gif",
-      "altText": ""
-    },
+"bgImgs": [    
     {
       "imageSRC": "pages/module_1/page_11/images/back.png",
       "altText": ""
