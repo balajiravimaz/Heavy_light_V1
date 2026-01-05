@@ -432,6 +432,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .instruction {
     font-size: 14px;
+    margin-top: 5px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .instruction span {
