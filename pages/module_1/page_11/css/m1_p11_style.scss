@@ -312,7 +312,7 @@
 						width: 100%;
 
 						@include mobile-landscape {
-							height: calc(100% - 60px);
+							height: calc(100% - 90px);
 						}
 
 						.dummypatch {
@@ -463,7 +463,7 @@
 							max-width: 550xp;
 
 							@include mobile-landscape {
-								font-size: 16px;
+								font-size: 14px;
 							}
 						}
 

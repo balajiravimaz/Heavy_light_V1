@@ -200,7 +200,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style .header {
     background-size: cover;
     padding: 0 20px;
-    height: 80px;
+    height: 60px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns {
@@ -391,7 +391,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipText p {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipText p span {
@@ -426,7 +426,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipBody {
     justify-content: center;
     gap: 40px;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipBody .flip-card {

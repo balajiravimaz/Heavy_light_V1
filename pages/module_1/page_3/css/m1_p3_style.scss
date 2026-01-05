@@ -464,6 +464,9 @@
 		top: 0;
 		-o-object-fit: cover;
 		object-fit: cover;
+		@include mobile-landscape {
+			object-position: bottom;
+		}
 	}
 
 	.header-container {

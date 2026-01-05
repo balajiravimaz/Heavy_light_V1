@@ -54,14 +54,7 @@ function init() {
     $("#f_start_course").focus();
 }
 
-/* window.addEventListener('resize', winResize);
-
-$('html').css('width', "1300px");
-
-var zoomW = window.innerWidth / $('html').width();
-$('html').css('zoom', zoomW);
-
-$(".pageLoaderParallax").css('height', $("#f_content").height() + "px"); */
+ 
 $(window).on('resize', handleDesktopLayout);
 $(document).ready(handleDesktopLayout);
 
@@ -88,8 +81,11 @@ function handleDesktopLayout() {
         $('html').css({ width: '', zoom: '' });
         $('#f_wrapper').css({ width: '', height: '' });
         $(".pageLoaderParallax").css('height', '');
+        winResize();
     }
 }
+
+
 function winResize() {
     var zoomW = window.innerWidth / $('html').width();
     $('html').css('zoom', zoomW);
@@ -192,3 +188,12 @@ function stopMainScroll() {
         //e.preventDefault()
     })
 }
+
+// window.addEventListener('resize', winResize);
+
+// $('html').css('width', "1300px");
+
+// var zoomW = window.innerWidth / $('html').width();
+// $('html').css('zoom', zoomW);
+
+// $(".pageLoaderParallax").css('height', $("#f_content").height() + "px");
