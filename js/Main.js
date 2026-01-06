@@ -61,7 +61,7 @@ $(document).ready(handleDesktopLayout);
 function handleDesktopLayout() {
     var windowW = window.innerWidth;
 
-    if (windowW > 1366) {
+    if (window.matchMedia('(pointer: fine)').matches && window.innerWidth > 1366) {
         // Desktop styles
         $('html').css({
             width: '1300px',
@@ -95,6 +95,9 @@ function winResize() {
         updateCSS();
     }, 50)
 }
+
+
+
 
 function updateCSS() {
     var windowW = window.innerWidth;
