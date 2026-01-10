@@ -94,6 +94,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .header-container {
     height: 50px;
+    margin-bottom: 10px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns {
@@ -306,6 +307,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body {
     height: calc(100% - 80px);
+    padding-left: 1%;
+    padding-right: 1%;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .dummypatch {
@@ -404,6 +407,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   	}	
     } */
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body > .image-container {
+    margin-bottom: 10px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body > .image-container #box-1 {
   background-image: url(../images/Btn_1.svg);
   background-repeat: no-repeat;
@@ -427,12 +435,10 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   color: #819da7;
   font-size: 28px;
   text-align: center;
-  max-width: 550xp;
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .instruction {
     font-size: 14px;
-    margin-top: 5px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .instruction span {
@@ -446,8 +452,13 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-size: contain;
   cursor: pointer;
   margin-left: 5px;
-  margin-top: 5px;
   border: none;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .intro-audio {
+    width: 15px;
+    height: 15px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .top-alignText {
   position: relative;
@@ -461,6 +472,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body .top-alignText {
     margin: 7px;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container {
@@ -473,6 +486,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container {
     justify-content: space-evenly;
+    gap: 10px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .instruction {
@@ -512,7 +526,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box {
     width: 180px;
-    height: 200px;
+    height: 100%;
+    background-size: 100% 100%;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .drop-area {
@@ -526,8 +541,10 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area {
-    width: 150px;
+    width: 100%;
     height: 170px;
+    padding: 0 15px !important;
+    margin-left: 0;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .drop-area img {
@@ -623,7 +640,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
     width: 240px;
-    height: 200px;
+    height: 100%;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
@@ -692,6 +709,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .object {
+    max-width: 55px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .object img {
   width: 100%;
   height: auto;
@@ -726,7 +748,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   background-size: 100%;
-  z-index: 1111;
+  z-index: 111111;
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .success {
   position: fixed;
@@ -1249,7 +1271,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
           backdrop-filter: blur(4px);
   justify-content: center;
   align-items: center;
-  z-index: 10001;
+  z-index: 111111;
 }
 #home-popup .popup-content {
   position: fixed;

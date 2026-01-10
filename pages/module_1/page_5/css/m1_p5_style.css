@@ -580,6 +580,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 100%;
   height: 100%;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw {
+    height: calc(100% - 90px);
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap {
   width: calc(100% - 200px);
   height: 100px;
@@ -600,6 +605,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap {
     width: calc(100% - 80px);
+    top: calc(100% - 50px);
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap {
+    top: calc(100% - 40px);
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .image-holding {
@@ -622,6 +633,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     background-size: 60px;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .saw-holding {
+    background-size: 50px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
   position: absolute;
   bottom: 0;
@@ -637,6 +653,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
     top: 10px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
+    top: 15px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding {
@@ -822,6 +843,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
   width: 25%;
 }
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
+    background: url("../images/right_bg.png") no-repeat;
+    background-size: 100% 100%;
+  }
+}
 @media (min-width: 951px) and (max-width: 1080px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side {
     width: 35%;
@@ -856,8 +883,9 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container {
-    padding: 5px;
+    padding: 5px 10px;
     gap: 5px;
+    background-size: 100% 100%;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .dummy-patch {
@@ -999,7 +1027,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 100vh;
   justify-content: center;
   align-items: center;
-  z-index: 1111;
+  z-index: 111111;
   transition: opacity 0.5s ease-in-out;
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap {
@@ -1184,7 +1212,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
   transition: opacity 0.3s ease;
-  z-index: 10001;
+  z-index: 111111;
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content {
   position: fixed;
@@ -1202,6 +1230,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   pointer-events: auto;
   padding: 1%;
   background: transparent;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content {
+    width: 350px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content .introPopclose {
   position: absolute;
@@ -1222,8 +1255,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content .introPopclose {
-    right: 75px;
-    top: 15px;
+    right: 60px;
+    top: 20px;
     width: 15px;
     height: 15px;
   }
@@ -1278,7 +1311,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content .introPopAudio {
-    top: 30px;
+    top: 20px;
     width: 25px;
     height: 25px;
     left: 60px;
@@ -1313,7 +1346,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
           backdrop-filter: blur(4px);
   justify-content: center;
   align-items: center;
-  z-index: 10001;
+  z-index: 111111;
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style #home-popup .popup-content {
   position: fixed;
@@ -1323,6 +1356,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   animation: fadeInPopup 0.3s ease;
   z-index: 10002;
   text-align: center;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style #home-popup .popup-content {
+    width: 350px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style #home-popup .popup-content h2 {
   font-family: "Alphakind", Arial, sans-serif;

@@ -324,6 +324,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
     height: 70px;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 11;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .i-txt-toolTip {
@@ -743,7 +745,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.2);
-    z-index: 11;
+    z-index: 111111;
   }
 }
 .ins_1_popup {
@@ -765,7 +767,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_1_popup .overlay-layer {
     width: 350px;
-    height: 100%;
+    height: 250px;
   }
 }
 .ins_1_popup .overlay-layer button {
@@ -899,7 +901,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_1_popup .close_ins_1_popup {
-    top: 75px;
+    top: 20px;
     right: 65px;
     width: 15px;
     height: 15px;
@@ -925,7 +927,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_2_popup .overlay-layer {
     width: 350px;
-    height: 100%;
+    height: 250px;
   }
 }
 .ins_2_popup .overlay-layer .audio-style {
@@ -1025,7 +1027,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_2_popup .close_ins_2_popup {
-    top: 75px;
+    top: 20px;
     right: 65px;
     width: 15px;
     height: 15px;
@@ -1082,7 +1084,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_3_popup .overlay-layer {
     width: 350px;
-    height: 100%;
+    height: 250px;
   }
 }
 .ins_3_popup .overlay-layer .audio-style {
@@ -1182,7 +1184,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .ins_3_popup .close_ins_3_popup {
-    top: 75px;
+    top: 20px;
     right: 65px;
     width: 15px;
     height: 15px;
@@ -1226,8 +1228,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .audio-style {
-    top: 85px !important;
-    left: 45px !important;
+    top: 25px !important;
+    left: 50px !important;
   }
 }
 .overlay-layer .mute {
@@ -1237,8 +1239,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .mute {
-    width: 30px !important;
-    height: 30px !important;
+    width: 20px !important;
+    height: 20px !important;
   }
 }
 .overlay-layer .mute:hover {
@@ -1251,8 +1253,8 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   .overlay-layer .unmute {
-    width: 30px !important;
-    height: 30px !important;
+    width: 20px !important;
+    height: 20px !important;
   }
 }
 .overlay-layer .unmute:hover {
@@ -1270,7 +1272,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
   transition: opacity 0.3s ease;
-  z-index: 10001;
+  z-index: 111111;
 }
 #introPopup-1 .popup-content {
   position: fixed;
@@ -1288,6 +1290,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   pointer-events: auto;
   padding: 1%;
   background: transparent;
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #introPopup-1 .popup-content {
+    width: 350px;
+  }
 }
 #introPopup-1 .popup-content .introPopclose {
   position: absolute;

@@ -74,6 +74,7 @@
 
 						@include mobile-landscape {
 							height: 50px;
+							margin-bottom: 10px;
 						}
 
 						.navBtns {
@@ -313,6 +314,8 @@
 
 						@include mobile-landscape {
 							height: calc(100% - 80px);
+							padding-left: 1%;
+							padding-right: 1%;
 						}
 
 						.dummypatch {
@@ -384,6 +387,9 @@
 							align-items: center;
 							justify-content: center;
 							height: 100%;
+							@include mobile-landscape{
+								margin-bottom: 10px;
+							}
 							/* .header-container {
 								color: #4b2ea8;
 								font-size: 85px;
@@ -460,11 +466,11 @@
 							font-size: 28px;
 							// font-weight: bold;
 							text-align: center;
-							max-width: 550xp;
+							// max-width: 550px;
 
 							@include mobile-landscape {
 								font-size: 14px;
-								margin-top: 5px;
+								// margin-top: 10px;
 							}
 						}
 
@@ -481,8 +487,12 @@
 							background-size: contain;
 							cursor: pointer;
 							margin-left: 5px;
-							margin-top: 5px;
+							// margin-top: 5px;
 							border: none;
+							@include mobile-landscape{
+								width: 15px;
+								height: 15px;
+							}
 							// background: transparent;
 						}
 
@@ -497,6 +507,8 @@
 							@include mobile-landscape {
 								margin: 7px;
 								height: auto;
+								margin-top: 10px;
+								margin-bottom: 0;
 							}
 						}
 
@@ -509,6 +521,7 @@
 
 							@include mobile-landscape {
 								justify-content: space-evenly;
+								gap: 10px;
 							}
 
 							.instruction {
@@ -551,7 +564,8 @@
 
 								@include mobile-landscape {
 									width: 180px;
-									height: 200px;
+									height: 100%;
+									background-size: 100% 100%;
 								}
 							}
 						}
@@ -566,8 +580,10 @@
 							margin-left: 16px;
 
 							@include mobile-landscape {
-								width: 150px;
+								width: 100%;
 								height: 170px;
+								padding: 0 15px !important;
+								margin-left: 0;
 							}
 
 							// .object {
@@ -671,7 +687,8 @@
 
 							@include mobile-landscape {
 								width: 240px;
-								height: 200px;
+								height: 100%;
+								// background-position: 100% 100%;
 								// border: 1px solid red;
 							}
 
@@ -743,6 +760,9 @@
 							display: flex;
 							justify-content: center;
 							align-items: center;
+							@include mobile-landscape{
+								max-width: 55px;
+							}
 
 							img {
 								width: 100%;
@@ -785,7 +805,7 @@
 							-webkit-backdrop-filter: blur(4px);
 							// background-image: url(../images/successes.gif);
 							background-size: 100%;
-							z-index: 1111;
+							z-index: 111111;
 
 							.success {
 								position: fixed;
@@ -1374,7 +1394,7 @@
 	backdrop-filter: blur(4px);
 	justify-content: center;
 	align-items: center;
-	z-index: 10001;
+	z-index: 111111;
 
 	.popup-content {
 		position: fixed;

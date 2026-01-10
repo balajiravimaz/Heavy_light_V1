@@ -122,8 +122,7 @@ html {
      }
 }
 
-h2 {
-}
+h2 {}
 
 #f_wrapper {
      position: relative;
@@ -215,6 +214,7 @@ h2 {
                          justify-content: flex-start;
                          align-items: center;
                          gap: 10px;
+
                          @include mobile-landscape {
                               padding: 5px 10px;
                          }
@@ -246,6 +246,7 @@ h2 {
                                    height: 50px;
                                    background: url(../assets/images/pause.png) no-repeat;
                                    background-size: contain;
+
                                    @include mobile-landscape {
                                         width: 35px;
                                         height: 35px;
@@ -321,6 +322,7 @@ h2 {
                          gap: 30px;
                          justify-content: center;
                          align-items: center;
+
                          @include mobile-landscape {
                               gap: 0px;
                          }
@@ -357,6 +359,7 @@ h2 {
                               // text-shadow: 0.1vw 0.1vw 0 #000, 0.2vw 0.2vw 0 #000;
                               box-sizing: border-box;
                               font-family: "Alphakind", Arial, sans-serif;
+
                               @include mobile-landscape {
                                    font-size: 52.5px;
                               }
@@ -371,6 +374,7 @@ h2 {
                          background-position: center;
                          background-repeat: no-repeat;
                          animation: slowInFastOut 2s ease-in-out infinite;
+
                          @include mobile-landscape {
                               width: calc(100% - 70px);
                          }
@@ -388,6 +392,7 @@ h2 {
                          background: url("../assets/images/play.png") no-repeat;
                          background-size: contain;
                          transition: transform 0.5s ease-in;
+
                          @include mobile-landscape {
                               width: 70px;
                               height: 70px;
@@ -395,6 +400,35 @@ h2 {
 
                          &:hover {
                               transform: scale(1.125);
+                         }
+
+                         &::after {
+                              content: attr(data-tooltip);
+                              /* tooltip text from attribute */
+                              position: absolute;
+                              top: 100%;
+                              /* below the button */
+                              left: 50%;
+                              transform: translateX(-50%);
+                              background: rgba(0, 0, 0, 0.85);
+                              font-weight: bold;
+                              white-space: nowrap;
+                              box-shadow: 0 2px 19px rgba(0, 0, 0, 0.6);
+                              border: 1px solid rgba(255, 255, 255, 0.3);
+                              color: #fff;
+                              font-size: 10px;
+                              padding: 3px 5px;
+                              border-radius: 4px;
+                              white-space: nowrap;
+                              opacity: 0;
+                              font-family: "Times New Roman", Times, serif;
+                              pointer-events: none;
+                              transition: opacity 0.2s;
+                              // margin-top: 4px;
+                              z-index: 10;
+                         }
+                         &:hover::after{
+                              opacity: 1;
                          }
                     }
                }
@@ -550,7 +584,7 @@ h2 {
           background: #2e2e32;
           z-index: 11111;
 
-          & > .outer {
+          &>.outer {
                top: 45%;
                left: 45%;
                position: absolute;
@@ -801,9 +835,9 @@ h2 {
           display: flex !important;
      }
 
-     @include mobile-portrait {
-          display: flex !important;
-     }
+     // @include mobile-portrait {
+     //      display: flex !important;
+     // }
 
      .rotate-message-content {
           text-align: center;
@@ -828,6 +862,7 @@ h2 {
           }
 
           @keyframes rotate {
+
                0%,
                100% {
                     transform: rotate(0deg);
@@ -861,7 +896,8 @@ footer {
           color: #000;
           margin-bottom: 10px;
           font-family: "Times New Roman", sans-serif;
-          @include mobile-landscape{
+
+          @include mobile-landscape {
                font-size: 12px;
                margin-bottom: 5px;
           }
@@ -1031,6 +1067,7 @@ footer {
      top: 15px;
      right: 15px;
      gap: 5px;
+
      @include mobile-landscape {
           top: 5px;
           right: 5px;
@@ -1050,6 +1087,7 @@ footer {
           height: auto;
           /* margin-top: 15px; */
           display: block;
+
           @include mobile-landscape {
                width: 80px;
           }
@@ -1058,6 +1096,7 @@ footer {
                position: relative;
                width: 130px;
                height: auto;
+
                @include mobile-landscape {
                     width: 80px;
                }
@@ -1070,6 +1109,7 @@ footer {
           height: 50px;
           transition: transform 0.5s ease-in-out;
           cursor: pointer;
+
           @include mobile-landscape {
                width: 35px;
                height: 35px;
@@ -1185,6 +1225,7 @@ footer {
      z-index: 1 !important;
      min-width: auto;
      justify-content: center;
+
      @include mobile-landscape {
           width: 130px !important;
           height: 50px !important;
@@ -1343,12 +1384,14 @@ footer {
                height: 20px;
                cursor: pointer;
                transition: transform 0.5s ease-in-out;
+
                @include mobile-landscape {
                     top: 15px;
                     right: 60px;
                     width: 15px;
                     height: 15px;
                }
+
                &:hover {
                     transform: scale(1.125);
                }
@@ -1393,12 +1436,14 @@ footer {
                left: 100px;
                cursor: pointer;
                transition: transform 0.5s ease-in-out;
+
                @include mobile-landscape {
                     width: 20px;
                     height: 20px;
                     top: 20px;
                     left: 45px;
                }
+
                &:hover {
                     transform: scale(1.125);
                }

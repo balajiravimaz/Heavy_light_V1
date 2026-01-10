@@ -104,7 +104,7 @@
   ##Screen = B/w 768px to 1024px
 */
 @mixin ipad-portrait {
-    @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    @media (min-width: 320px) and (max-width: 1024px) and (orientation: portrait) {
         @content;
     }
 }

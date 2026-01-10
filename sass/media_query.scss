@@ -49,7 +49,11 @@ $tablet-width-landscape: 951px;
   }
 }
 
-
+@mixin mobile-landscape-height{
+  @media screen and (orientation: landscape) and (max-height: 299px){
+    @content;
+  }
+}
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
