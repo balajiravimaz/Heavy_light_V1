@@ -578,6 +578,9 @@
 													@include mobile-landscape {
 														font-size: 28px !important;
 													}
+													@include mobile-landscape-height{
+														font-size: 22px !important;
+													}
 												}
 
 
@@ -704,7 +707,7 @@
 												z-index: 1111;
 
 												@include mobile-landscape {
-													background-size: 60px;
+													background-size: 50px;
 												}
 
 												@include mobile-landscape-height {
@@ -726,11 +729,11 @@
 												z-index: 1;
 
 												@include mobile-landscape {
-													top: 10px;
+													top: 20px;
 												}
 
 												@include mobile-landscape-height {
-													top: 20px;
+													top: 25px;
 												}
 
 												.left-holding {
@@ -1068,6 +1071,7 @@
 											@include mobile-landscape-height {
 												width: 25px;
 												height: 30px;
+												left: 120px;
 											}
 										}
 
@@ -1119,7 +1123,7 @@
 
 											@include mobile-landscape {
 												width: 70px;
-												max-width: 70px;
+												max-width: 65px;
 												height: 45px;
 											}
 

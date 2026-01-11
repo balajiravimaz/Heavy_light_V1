@@ -533,6 +533,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     font-size: 28px !important;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap .text p.tabletSize {
+    font-size: 22px !important;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .wrap .text p .wrapTextaudio {
   position: relative;
   width: 25px;
@@ -630,7 +635,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .saw-holding {
-    background-size: 60px;
+    background-size: 50px;
   }
 }
 @media screen and (orientation: landscape) and (max-height: 299px) {
@@ -652,12 +657,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
-    top: 10px;
+    top: 20px;
   }
 }
 @media screen and (orientation: landscape) and (max-height: 299px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding {
-    top: 20px;
+    top: 25px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .left-side .sea-saw .sea-saw-wrap .bar-holding .left-holding {
@@ -976,6 +981,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container::after {
     width: 25px;
     height: 30px;
+    left: 120px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container.paused::after {
@@ -1009,7 +1015,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .right-side .image-container .btn {
     width: 70px;
-    max-width: 70px;
+    max-width: 65px;
     height: 45px;
   }
 }

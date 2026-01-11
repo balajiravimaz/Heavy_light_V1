@@ -324,6 +324,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
     height: 70px;
     margin-bottom: 10px;
+    z-index: 11;
   }
 }
 @media screen and (orientation: landscape) and (max-height: 299px) {

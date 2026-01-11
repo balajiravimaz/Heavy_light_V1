@@ -364,6 +364,7 @@
 								@include mobile-landscape {
 									height: 70px;
 									margin-bottom: 10px;
+									z-index: 11;
 								}
 								@include mobile-landscape-height{
 									margin-bottom: 0px;
