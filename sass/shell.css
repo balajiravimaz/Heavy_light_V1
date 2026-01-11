@@ -799,6 +799,12 @@ html {
     height: 70px;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #f_wrapper #f_start_course #intro #intro-text #f_launchBtn {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+}
 #f_wrapper #f_start_course #intro #intro-text #f_launchBtn:hover {
   transform: scale(1.125);
 }

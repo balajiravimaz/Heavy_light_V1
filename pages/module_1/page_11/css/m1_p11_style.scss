@@ -585,6 +585,9 @@
 								padding: 0 15px !important;
 								margin-left: 0;
 							}
+							@include mobile-landscape-height{
+								height: 120px;
+							}
 
 							// .object {
 							// width: 100px;
@@ -673,6 +676,9 @@
 								font-size: 16px;
 								margin: 7px 0;
 							}
+							@include mobile-landscape-height{
+								margin: 3px 0;
+							}
 						}
 
 						.game-container .objects-container {
@@ -691,6 +697,9 @@
 								// background-position: 100% 100%;
 								// border: 1px solid red;
 							}
+							@include mobile-landscape-height{
+								background-size: 100% 100%;
+							}
 
 							#leaf {
 								width: 96px;
@@ -699,6 +708,10 @@
 								@include mobile-landscape {
 									width: 46px;
 									height: 46px;
+								}
+								@include mobile-landscape-height{
+									width: 40px;
+									height: 40px;
 								}
 							}
 
@@ -710,6 +723,9 @@
 									width: 45px;
 									height: 27px;
 								}
+								@include mobile-landscape-height{
+									width: 40px;
+								}
 							}
 
 							#car {
@@ -719,6 +735,9 @@
 								@include mobile-landscape {
 									width: 60px;
 									height: 43px;
+								}
+								@include mobile-landscape-height{
+									width: 55px;
 								}
 							}
 
@@ -730,6 +749,9 @@
 									width: 32px;
 									height: 62px;
 								}
+								@include mobile-landscape-height{
+									width: 28px;
+								}
 							}
 
 							#flower {
@@ -739,6 +761,10 @@
 								@include mobile-landscape {
 									width: 40px;
 									height: 45px;
+								}
+								@include mobile-landscape-height{
+									width: 35px;
+									height: 35px;
 								}
 							}
 
@@ -1044,6 +1070,9 @@
 							@include mobile-landscape {
 								width: 110px;
 								height: 57px;
+							}
+							@include mobile-landscape-height{
+								height: 50px;
 							}
 						}
 					}
@@ -1423,6 +1452,9 @@
 			width: 500px;
 			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 			text-align: center;
+			@include mobile-landscape-height{
+				padding: 15px;
+			}
 
 			p {
 				text-align: center;

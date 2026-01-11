@@ -365,6 +365,9 @@
 									height: 70px;
 									margin-bottom: 10px;
 								}
+								@include mobile-landscape-height{
+									margin-bottom: 0px;
+								}
 							}
 
 							.i-txt-toolTip {

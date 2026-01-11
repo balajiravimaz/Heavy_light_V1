@@ -547,6 +547,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     margin-left: 0;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area {
+    height: 120px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .drop-area img {
   width: 100%;
   height: auto;
@@ -627,6 +632,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     margin: 7px 0;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box .box-title {
+    margin: 3px 0;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
   width: 420px;
   height: 362px;
@@ -643,6 +653,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 100%;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
+    background-size: 100% 100%;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
   width: 96px;
   height: 96px;
@@ -651,6 +666,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
     width: 46px;
     height: 46px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
+    width: 40px;
+    height: 40px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #stone {
@@ -663,6 +684,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 27px;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #stone {
+    width: 40px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
   width: 120px;
   height: 83px;
@@ -671,6 +697,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
     width: 60px;
     height: 43px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
+    width: 55px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #chair {
@@ -683,6 +714,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 62px;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #chair {
+    width: 28px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
   width: 80px;
   height: 90px;
@@ -691,6 +727,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
     width: 40px;
     height: 45px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
+    width: 35px;
+    height: 35px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #sponge {
@@ -968,6 +1010,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
     width: 110px;
     height: 57px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
+    height: 50px;
   }
 }
 #section-1 .content-holder .overlay {
@@ -1299,6 +1346,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 500px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #home-popup .popup-content.modal-box {
+    padding: 15px;
+  }
 }
 #home-popup .popup-content.modal-box p {
   text-align: center;

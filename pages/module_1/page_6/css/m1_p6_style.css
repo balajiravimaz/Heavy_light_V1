@@ -548,8 +548,18 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   }
 }
 @media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipBody .flip-back .flipBackImage p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipBody .flip-back img {
     width: 100px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style > .body .animat-container .flip-container .flipWrap .flipBody .flip-back img {
+    width: 65px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup {
@@ -588,6 +598,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap {
     width: 350px;
     height: 250px;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap {
+    height: 220px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns {
@@ -912,6 +927,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 500px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style #home-popup .popup-content.modal-box {
+    padding: 15px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style #home-popup .popup-content.modal-box p {
   text-align: center;

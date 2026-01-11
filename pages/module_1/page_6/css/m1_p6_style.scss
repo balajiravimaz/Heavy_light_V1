@@ -588,12 +588,18 @@
 														@include mobile-landscape {
 															font-size: 20px;
 														}
+														@include mobile-landscape{
+															font-size: 16px;
+														}
 													}
 												}
 
 												img {
 													@include mobile-landscape {
 														width: 100px;
+													}
+													@include mobile-landscape-height{
+														width: 65px;
 													}
 												}
 											}
@@ -640,6 +646,9 @@
 								@include mobile-landscape {
 									width: 350px;
 									height: 250px;
+								}
+								@include mobile-landscape-height{
+									height: 220px;
 								}
 
 
@@ -989,6 +998,9 @@
 									width: 500px;
 									box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 									text-align: center;
+									@include mobile-landscape-height{
+										padding: 15px;
+									}
 
 									p {
 										text-align: center;
