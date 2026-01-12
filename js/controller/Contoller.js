@@ -367,6 +367,12 @@ Controller.prototype.checkPreLoaderHide = function () {
                         $("#f_preloader_wrapper").show();
                         playClickThen();
                         onLaunchCourse();
+                        // IOS code
+                        if (!document.documentElement.requestFullscreen ||
+                            (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+                        ) {
+                            document.getElementById("full-screen").style.display = "none";
+                        }
                         document.getElementById("audio_src").play();
                         document.getElementById("audio_src").volume = 0.6;
                         if (!_controller._globalMusicPlaying) {
