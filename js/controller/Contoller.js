@@ -371,7 +371,7 @@ Controller.prototype.checkPreLoaderHide = function () {
                         if (!document.documentElement.requestFullscreen ||
                             (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
                         ) {
-                            document.getElementById("full-screen").style.display = "none";
+                            document.querySelector(".fScreen").style.display = "none";
                         }
                         document.getElementById("audio_src").play();
                         document.getElementById("audio_src").volume = 0.6;
