@@ -15,7 +15,7 @@
       width: 80px;
     }
 
-   
+
 
     /*  &:after {
         content: "";
@@ -37,7 +37,7 @@
           width: 80px;
         }
 
-      
+
       }
     }
   }
@@ -104,6 +104,11 @@
       transition: opacity 0.2s;
       margin-top: 4px;
       z-index: 10;
+
+      @include mobile-landscape {
+        font-size: 8px;
+        left: calc(100% - 20px);
+      }
     }
 
     /* Show tooltip on hover */

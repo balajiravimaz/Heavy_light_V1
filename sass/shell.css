@@ -1460,6 +1460,12 @@ footer p {
   margin-top: 4px;
   z-index: 10;
 }
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header_main .full-screen::after {
+    font-size: 8px;
+    left: 20%;
+  }
+}
 #f_header_main .full-screen:hover::after {
   opacity: 1;
 }
@@ -1854,6 +1860,12 @@ footer p {
   transition: opacity 0.2s;
   margin-top: 4px;
   z-index: 10;
+}
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_header .full-screen::after {
+    font-size: 8px;
+    left: calc(100% - 20px);
+  }
 }
 #f_header .full-screen:hover::after {
   opacity: 1;

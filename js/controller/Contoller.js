@@ -149,6 +149,13 @@ var Controller = function () {
         });
     }
 
+    // IOS code
+    if (!document.documentElement.requestFullscreen ||
+        (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+    ) {
+        document.getElementById("full-screen").style.display = "none";
+    }
+
     preLoadImage();
 };
 
@@ -2551,6 +2558,9 @@ function checkGlobalAudio() {
         button.classList.toggle('mute', !_controller._globalMusicPlaying);
     });
 }
+
+
+
 function toggleFullscreen(btn) {
 
     playClickThen()

@@ -1165,6 +1165,10 @@ footer {
                transition: opacity 0.2s ease;
                margin-top: 4px;
                z-index: 10;
+               @include mobile-landscape{
+                    font-size: 8px;
+                    left: 20%;
+               }
           }
 
           /* Show tooltip on hover */
