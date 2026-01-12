@@ -1023,6 +1023,7 @@ html {
   overflow: visible;
   top: 10px;
   right: 15px;
+  gap: 5px;
   z-index: 11 !important;
   min-width: auto;
   justify-content: center;
@@ -1522,6 +1523,7 @@ footer p {
   top: 0px;
   right: 10px;
   z-index: 1 !important;
+  gap: 5px;
   min-width: auto;
   justify-content: center;
 }
@@ -1777,7 +1779,7 @@ footer p {
   width: 130px;
   height: auto;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
   /*  &:after {
       content: "";
       position: absolute;
