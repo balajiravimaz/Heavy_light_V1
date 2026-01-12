@@ -83,8 +83,14 @@
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+// @mixin desktop-big {
+//     @media (min-width: 1281px) {
+//         @content;
+//     }
+// }
+
 @mixin desktop-big {
-    @media (min-width: 1281px) {
+    @media (min-width: 1440px) {
         @content;
     }
 }

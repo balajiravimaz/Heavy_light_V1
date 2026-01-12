@@ -394,6 +394,12 @@ button:focus {
   }
 }
 
+@media (min-width: 1440px) {
+  .content-holder {
+    max-width: 1440px !important;
+  }
+}
+
 .textContainer {
   position: relative;
   float: left;

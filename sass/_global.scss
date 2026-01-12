@@ -41,6 +41,7 @@ sup {
 ::-webkit-scrollbar-thumb:hover {
     background: #fff;
 }
+
 body,
 html {
     width: 100%;
@@ -179,6 +180,7 @@ input:focus {
     //     @include gradient($button-gradient-from-over, $button-gradient-to-over, vertical);
     // }
 }
+
 //gloabal page css
 
 /* #section-1 .content-holder .col-left .content .content-bg > h1 {
@@ -199,27 +201,36 @@ input:focus {
         gap: 5px !important;
         padding: 5px 10px !important;
     }
-  
+
 }
+
 .home-go-to {
     @include mobile-landscape {
         width: 35px !important;
         height: 35px !important;
     }
-  
+
 }
+
 .music {
     @include mobile-landscape {
         width: 35px !important;
         height: 35px !important;
     }
-    
-  
+
+
 }
+
 .information-icon {
     @include mobile-landscape {
         width: 35px !important;
         height: 35px !important;
     }
-  
+
+}
+
+.content-holder {
+    @include desktop-big{
+        max-width: 1440px !important;
+    }
 }
