@@ -367,6 +367,7 @@ Controller.prototype.checkPreLoaderHide = function () {
                         $("#f_preloader_wrapper").show();
                         playClickThen();
                         onLaunchCourse();
+                        document.querySelector(".fScreen").style.display = "none";
                         // IOS code
                         if (!document.documentElement.requestFullscreen ||
                             (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)

@@ -669,6 +669,9 @@ h2 {}
           z-index: 11 !important;
           min-width: auto;
           justify-content: center;
+          @include mobile-landscape{
+               justify-content: flex-end;
+          }
      }
 
      #f_content {
@@ -1241,6 +1244,7 @@ footer {
           height: 50px !important;
           top: 5px !important;
           right: 5px !important;
+          justify-content: flex-end;
      }
 }
 

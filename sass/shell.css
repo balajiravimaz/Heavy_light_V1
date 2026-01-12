@@ -1027,6 +1027,11 @@ html {
   min-width: auto;
   justify-content: center;
 }
+@media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
+  #f_wrapper #f_header {
+    justify-content: flex-end;
+  }
+}
 #f_wrapper #f_content {
   position: relative;
   width: 100%;
@@ -1526,6 +1531,7 @@ footer p {
     height: 50px !important;
     top: 5px !important;
     right: 5px !important;
+    justify-content: flex-end;
   }
 }
 
@@ -1770,9 +1776,8 @@ footer p {
   align-items: center;
   width: 130px;
   height: auto;
-  margin-right: 10px;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   /*  &:after {
       content: "";
       position: absolute;
@@ -1787,6 +1792,7 @@ footer p {
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header #f_companyLogo {
     width: 80px;
+    justify-content: flex-end;
   }
 }
 #f_header #f_companyLogo .logo-bg-patch img {
