@@ -72,6 +72,12 @@
 						background-position: center;
 						background-size: contain;
 
+						@include tablet-landscape-height {
+							height: 60px;
+							margin-bottom: 20px;
+							background-size: 100% 100%;
+						}
+
 						@include mobile-landscape {
 							height: 50px;
 							margin-bottom: 10px;
@@ -86,6 +92,14 @@
 							top: 18px;
 							justify-content: flex-start;
 							align-items: center;
+
+							@include tablet-landscape-height {
+								top: 5px;
+							}
+
+							@include tablet-landscape {
+								top: 10px;
+							}
 
 							@include mobile-landscape {
 								padding: 0 15px;
@@ -102,6 +116,11 @@
 								cursor: pointer;
 								position: relative;
 								transition: transform 0.5s ease-in-out;
+
+								@include tablet-landscape-height {
+									width: 40px;
+									height: 40px;
+								}
 
 								@include mobile-landscape {
 									width: 35px;
@@ -155,6 +174,11 @@
 								display: none !important;
 								transition: transform 0.5s ease-in-out;
 
+								@include tablet-landscape-height {
+									width: 40px;
+									height: 40px;
+								}
+
 								&:hover {
 									transform: scale(1.125);
 								}
@@ -200,6 +224,11 @@
 								cursor: pointer;
 								position: relative;
 								transition: transform 0.5s ease-in-out;
+
+								@include tablet-landscape-height {
+									width: 40px;
+									height: 40px;
+								}
 
 								&:hover {
 									transform: scale(1.125);
@@ -258,6 +287,10 @@
 							img {
 								width: 330px;
 
+								@include tablet-landscape-height {
+									width: 270px;
+								}
+
 								@include mobile-landscape {
 									width: 270px;
 								}
@@ -311,6 +344,18 @@
 						justify-content: center;
 						align-items: center;
 						width: 100%;
+
+
+
+						@include tablet-landscape-height {
+							height: calc(100% - 110px);
+							padding-left: 1%;
+							padding-right: 1%;
+						}
+
+						@include tablet-landscape {
+							padding: 0 2%;
+						}
 
 						@include mobile-landscape {
 							height: calc(100% - 80px);
@@ -387,9 +432,11 @@
 							align-items: center;
 							justify-content: center;
 							height: 100%;
-							@include mobile-landscape{
+
+							@include mobile-landscape {
 								margin-bottom: 10px;
 							}
+
 							/* .header-container {
 								color: #4b2ea8;
 								font-size: 85px;
@@ -468,6 +515,12 @@
 							text-align: center;
 							// max-width: 550px;
 
+							@include tablet-landscape-height {
+								font-size: 22px;
+								margin-bottom: 10px;
+
+							}
+
 							@include mobile-landscape {
 								font-size: 14px;
 								// margin-top: 10px;
@@ -489,10 +542,12 @@
 							margin-left: 5px;
 							// margin-top: 5px;
 							border: none;
-							@include mobile-landscape{
+
+							@include mobile-landscape {
 								width: 15px;
 								height: 15px;
 							}
+
 							// background: transparent;
 						}
 
@@ -503,6 +558,12 @@
 							align-items: center;
 							margin: 15px;
 							height: 40px;
+
+							@include tablet-landscape-height {
+								height: auto;
+								margin: auto;
+								// margin-top: 20px;
+							}
 
 							@include mobile-landscape {
 								margin: 7px;
@@ -519,6 +580,14 @@
 							justify-content: space-around;
 							align-items: center;
 
+							@include tablet-landscape-height {
+								gap: 10px;
+							}
+
+							@include tablet-landscape {
+								gap: 15px;
+							}
+
 							@include mobile-landscape {
 								justify-content: space-evenly;
 								gap: 10px;
@@ -529,6 +598,11 @@
 								font-size: 32px;
 								// font-weight: bold;
 								text-align: center;
+
+								@include tablet-landscape-height {
+									font-size: 22px;
+									margin-bottom: 10px;
+								}
 
 								@include mobile-landscape {
 									font-size: 16px;
@@ -562,6 +636,16 @@
 								background-size: contain;
 								background-repeat: no-repeat;
 
+								@include tablet-landscape-height {
+									height: 100%;
+									background-size: 100% 100%;
+								}
+
+								@include tablet-landscape {
+									width: 33%;
+									background-size: 100% 100%;
+								}
+
 								@include mobile-landscape {
 									width: 180px;
 									height: 100%;
@@ -579,13 +663,19 @@
 							grid-template-columns: repeat(3, 1fr);
 							margin-left: 16px;
 
+							@include tablet-landscape-height {
+								margin-left: 5px;
+								height: 220px;
+							}
+
 							@include mobile-landscape {
 								width: 100%;
 								height: 170px;
 								padding: 0 15px !important;
 								margin-left: 0;
 							}
-							@include mobile-landscape-height{
+
+							@include mobile-landscape-height {
 								height: 120px;
 							}
 
@@ -607,6 +697,10 @@
 								height: 96px;
 								cursor: grab;
 
+								@include tablet-landscape-height {
+									width: 80px;
+								}
+
 								@include mobile-landscape {
 									width: 50px;
 								}
@@ -616,6 +710,11 @@
 								width: 95px;
 								height: 47px;
 								cursor: grab;
+
+
+								@include tablet-landscape-height {
+									width: 90px;
+								}
 
 								@include mobile-landscape {
 									width: 60px;
@@ -627,6 +726,11 @@
 								height: 83px;
 								cursor: grab;
 
+
+								@include tablet-landscape-height {
+									width: 80px;
+								}
+
 								@include mobile-landscape {
 									width: 60px;
 								}
@@ -636,6 +740,10 @@
 								width: 75px;
 								height: 145px;
 								cursor: grab;
+
+								@include tablet-landscape-height {
+									width: 50px;
+								}
 
 								@include mobile-landscape {
 									width: 35px;
@@ -647,6 +755,10 @@
 								height: 107px;
 								cursor: grab;
 
+								@include tablet-landscape-height {
+									width: 65px;
+								}
+
 								@include mobile-landscape {
 									width: 45px;
 								}
@@ -656,6 +768,10 @@
 								width: 95px;
 								height: 45px;
 								cursor: grab;
+
+								@include tablet-landscape-height {
+									width: 70px;
+								}
 
 								@include mobile-landscape {
 									width: 60px;
@@ -672,11 +788,16 @@
 							box-sizing: border-box;
 							font-family: "Alphakind";
 
+							@include tablet-landscape-height {
+								font-size: 30px;
+							}
+
 							@include mobile-landscape {
 								font-size: 16px;
 								margin: 7px 0;
 							}
-							@include mobile-landscape-height{
+
+							@include mobile-landscape-height {
 								margin: 3px 0;
 							}
 						}
@@ -691,13 +812,26 @@
 							background-repeat: no-repeat;
 							background-position: center;
 
+
+							@include tablet-landscape-height {
+								height: 100%;
+								background-size: 100% 100%;
+							}
+
+							@include tablet-landscape {
+								width: 34%;
+								background-size: 100% 100%;
+							}
+
 							@include mobile-landscape {
 								width: 240px;
 								height: 100%;
+								background-size: 100% 100%;
 								// background-position: 100% 100%;
 								// border: 1px solid red;
 							}
-							@include mobile-landscape-height{
+
+							@include mobile-landscape-height {
 								background-size: 100% 100%;
 							}
 
@@ -705,11 +839,17 @@
 								width: 96px;
 								height: 96px;
 
+								@include tablet-landscape-height {
+									width: 55px;
+									height: 55px
+								}
+
 								@include mobile-landscape {
 									width: 46px;
 									height: 46px;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									width: 40px;
 									height: 40px;
 								}
@@ -719,11 +859,17 @@
 								width: 95px;
 								height: 47px;
 
+								@include tablet-landscape-height {
+									width: 50px;
+									height: 30px;
+								}
+
 								@include mobile-landscape {
 									width: 45px;
 									height: 27px;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									width: 40px;
 								}
 							}
@@ -732,11 +878,17 @@
 								width: 120px;
 								height: 83px;
 
+								@include tablet-landscape-height {
+									width: 70px;
+									height: 45px;
+								}
+
 								@include mobile-landscape {
 									width: 60px;
 									height: 43px;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									width: 55px;
 								}
 							}
@@ -745,11 +897,17 @@
 								width: 62px;
 								height: 122px;
 
+								@include tablet-landscape-height {
+									width: 40px;
+									height: 65px;
+								}
+
 								@include mobile-landscape {
 									width: 32px;
 									height: 62px;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									width: 28px;
 								}
 							}
@@ -758,11 +916,17 @@
 								width: 80px;
 								height: 90px;
 
+								@include tablet-landscape-height {
+									width: 45px;
+									height: 50px;
+								}
+
 								@include mobile-landscape {
 									width: 40px;
 									height: 45px;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									width: 35px;
 									height: 35px;
 								}
@@ -771,6 +935,11 @@
 							#sponge {
 								width: 95px;
 								height: 45px;
+
+								@include tablet-landscape-height {
+									width: 55px;
+									height: 35px;
+								}
 
 								@include mobile-landscape {
 									width: 47px;
@@ -786,7 +955,8 @@
 							display: flex;
 							justify-content: center;
 							align-items: center;
-							@include mobile-landscape{
+
+							@include mobile-landscape {
 								max-width: 55px;
 							}
 
@@ -898,6 +1068,10 @@
 									width: 450px;
 									height: 400px;
 
+									@include tablet-landscape-height {
+										top: 60%;
+									}
+
 									@include mobile-landscape {
 										width: 350px;
 										height: 250px;
@@ -912,6 +1086,13 @@
 										position: relative;
 										height: 315px;
 										gap: 30px;
+
+										@include tablet-landscape-height{
+											height: 305px;
+										}
+										@include tablet-landscape{
+											height: 300px;
+										}
 
 										@include mobile-landscape {
 											width: 350px;
@@ -1067,12 +1248,24 @@
 							justify-content: center;
 							align-items: center;
 
+
+							@include tablet-landscape {
+								width: 100%;
+								// height: 100%;
+							}
+
 							@include mobile-landscape {
 								width: 110px;
 								height: 57px;
 							}
-							@include mobile-landscape-height{
+
+							@include mobile-landscape-height {
 								height: 50px;
+							}
+
+							@include tablet-landscape-height {
+								width: 100%;
+								height: 80px;
 							}
 						}
 					}
@@ -1452,7 +1645,8 @@
 			width: 500px;
 			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 			text-align: center;
-			@include mobile-landscape-height{
+
+			@include mobile-landscape-height {
 				padding: 15px;
 			}
 

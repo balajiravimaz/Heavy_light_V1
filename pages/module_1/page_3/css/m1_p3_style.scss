@@ -179,6 +179,10 @@
 							height: 100%;
 							margin-bottom: 5%;
 
+							@include tablet-landscape-height {
+								margin-bottom: 0;
+							}
+
 							@include mobile-landscape {
 								width: calc(100% - 0px);
 							}
@@ -361,13 +365,19 @@
 								align-items: start;
 								justify-content: end;
 
+								@include tablet-landscape-height {
+									height: 90px;
+								}
+
 								@include mobile-landscape {
 									height: 70px;
 									margin-bottom: 10px;
 									z-index: 11;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									margin-bottom: 0px;
+									height: 60px;
 								}
 							}
 
@@ -484,6 +494,9 @@
 		height: 12%;
 		top: 5px;
 		left: 0;
+		@include tablet-landscape-height{
+			top: 0;
+		}
 	}
 
 	.home {
@@ -501,6 +514,11 @@
 			border: none;
 			animation: none !important;
 			transition: transform 0.5s ease-in;
+
+			@include tablet-landscape-height {
+				width: 35px;
+				height: 35px;
+			}
 
 			&:hover {
 				transform: scale(1.125);
@@ -893,6 +911,16 @@
 	background-repeat: no-repeat;
 	cursor: pointer;
 
+	@include tablet-landscape-height {
+		width: 40px;
+		height: 40px;
+	}
+
+	@include mobile-landscape-height{
+		width: 30px !important;
+		height: 30px !important;
+	}
+
 	@include mobile-landscape {
 		width: 30px !important;
 		height: 30px !important;
@@ -910,6 +938,18 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	cursor: pointer;
+
+
+	
+	@include tablet-landscape-height {
+		width: 40px;
+		height: 40px;
+	}
+
+	@include mobile-landscape-height{
+		width: 30px !important;
+		height: 30px !important;
+	}
 
 	@include mobile-landscape {
 		width: 30px !important;
@@ -1439,7 +1479,8 @@
 		pointer-events: auto;
 		padding: 1%;
 		background: transparent;
-		@include mobile-landscape{
+
+		@include mobile-landscape {
 			width: 350px;
 		}
 

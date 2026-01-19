@@ -170,6 +170,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 100%;
   margin-bottom: 5%;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body > .image-container {
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container {
     width: calc(100% - 0px);
@@ -295,6 +300,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   box-sizing: border-box;
   font-family: "Comic Sans MS", Arial, sans-serif;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .header-container button {
+    width: 35px;
+    height: 35px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction-footer {
   color: #000;
   font-size: 17px;
@@ -320,6 +331,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   align-items: start;
   justify-content: end;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
+    height: 90px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
     height: 70px;
@@ -331,6 +347,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media screen and (orientation: landscape) and (max-height: 299px) {
   #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .instruction {
     margin-bottom: 0px;
+    height: 60px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg > .body > .image-container .i-txt-toolTip {
@@ -428,6 +445,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   top: 5px;
   left: 0;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .header-container {
+    top: 0;
+  }
+}
 #section-1 .home {
   position: relative;
   display: flex;
@@ -440,6 +462,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   border: none;
   transition: transform 0.5s ease-in;
   animation: none !important;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .home button {
+    width: 35px;
+    height: 35px;
+  }
 }
 #section-1 .home button:hover {
   transform: scale(1.125);
@@ -697,7 +725,19 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-repeat: no-repeat;
   cursor: pointer;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  .ins_1 {
+    width: 40px;
+    height: 40px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
+  .ins_1 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
   .ins_1 {
     width: 30px !important;
     height: 30px !important;
@@ -716,7 +756,19 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-repeat: no-repeat;
   cursor: pointer;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  .ins_2 {
+    width: 40px;
+    height: 40px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
+  .ins_2 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
   .ins_2 {
     width: 30px !important;
     height: 30px !important;
@@ -735,7 +787,19 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-repeat: no-repeat;
   cursor: pointer;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  .ins_3 {
+    width: 40px;
+    height: 40px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
+  .ins_3 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 299px) {
   .ins_3 {
     width: 30px !important;
     height: 30px !important;

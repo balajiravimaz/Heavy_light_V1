@@ -61,6 +61,13 @@ $(document).ready(handleDesktopLayout);
 function handleDesktopLayout() {
     var windowW = window.innerWidth;
 
+    console.log("Testing",{
+        width: window.innerWidth,
+        pointer: matchMedia("(pointer: coarse)").matches,
+        hover: matchMedia("(hover: none)").matches,
+        landscape: matchMedia("(orientation: landscape)").matches,
+    })
+
     if (window.matchMedia('(pointer: fine)').matches && window.innerWidth > 1366) {
         // Desktop styles
         $('html').css({

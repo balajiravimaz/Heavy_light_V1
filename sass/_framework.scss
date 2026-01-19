@@ -224,6 +224,18 @@ h2 {}
                               width: 50px;
                               height: 50px;
 
+
+
+                              // @include ipad-landscape {
+                              //      width: 35px;
+                              //      height: 35px;
+                              // }
+
+                              @include tablet-landscape-height {
+                                   width: 35px;
+                                   height: 35px;
+                              }
+
                               @include mobile-landscape {
                                    width: 35px;
                                    height: 35px;
@@ -247,6 +259,17 @@ h2 {}
                                    background: url(../assets/images/pause.png) no-repeat;
                                    background-size: contain;
 
+
+                                   // @include ipad-landscape {
+                                   //      width: 35px;
+                                   //      height: 35px;
+                                   // }
+
+                                   @include tablet-landscape-height {
+                                        width: 35px;
+                                        height: 35px;
+                                   }
+
                                    @include mobile-landscape {
                                         width: 35px;
                                         height: 35px;
@@ -259,6 +282,17 @@ h2 {}
                               height: 50px;
                               background: url("../assets/images/info.png") no-repeat;
                               background-size: contain;
+
+
+                              // @include ipad-landscape {
+                              //      width: 35px;
+                              //      height: 35px;
+                              // }
+
+                              @include tablet-landscape-height {
+                                   width: 35px;
+                                   height: 35px;
+                              }
 
                               @include mobile-landscape {
                                    width: 35px;
@@ -323,6 +357,10 @@ h2 {}
                          justify-content: center;
                          align-items: center;
 
+                         @include tablet-landscape-height {
+                              gap: 15px;
+                         }
+
                          @include mobile-landscape {
                               gap: 0px;
                          }
@@ -347,6 +385,10 @@ h2 {}
                          line-height: 1;
 
                          // letter-spacing: 2px;
+                         @include tablet-landscape-height {
+                              font-size: 80px;
+                         }
+
                          @include mobile-landscape {
                               font-size: 52.5px;
                          }
@@ -359,6 +401,10 @@ h2 {}
                               // text-shadow: 0.1vw 0.1vw 0 #000, 0.2vw 0.2vw 0 #000;
                               box-sizing: border-box;
                               font-family: "Alphakind", Arial, sans-serif;
+
+                              @include tablet-landscape-height {
+                                   font-size: 80px;
+                              }
 
                               @include mobile-landscape {
                                    font-size: 52.5px;
@@ -374,6 +420,10 @@ h2 {}
                          background-position: center;
                          background-repeat: no-repeat;
                          animation: slowInFastOut 2s ease-in-out infinite;
+
+                         @include tablet-landscape-height {
+                              height: 60px;
+                         }
 
                          @include mobile-landscape {
                               width: calc(100% - 70px);
@@ -392,6 +442,11 @@ h2 {}
                          background: url("../assets/images/play.png") no-repeat;
                          background-size: contain;
                          transition: transform 0.5s ease-in;
+
+                         @include tablet-landscape-height {
+                              width: 80px;
+                              height: 80px;
+                         }
 
                          @include mobile-landscape {
                               width: 70px;
@@ -669,8 +724,13 @@ h2 {}
           gap: 5px;
           z-index: 11 !important;
           min-width: auto;
-          justify-content: center;
-          @include mobile-landscape{
+          justify-content: flex-end;
+
+          @include tablet-landscape-height {
+               height: 40px;
+          }
+
+          @include mobile-landscape {
                justify-content: flex-end;
           }
      }
@@ -1098,6 +1158,14 @@ footer {
           /* margin-top: 15px; */
           display: block;
 
+          // @include ipad-landscape {
+          //      width: 100px;
+          // }
+
+          @include tablet-landscape-height {
+               width: 100px;
+          }
+
           @include mobile-landscape {
                width: 80px;
           }
@@ -1106,6 +1174,14 @@ footer {
                position: relative;
                width: 130px;
                height: auto;
+
+               // @include ipad-landscape {
+               //      width: 100px;
+               // }
+
+               @include tablet-landscape-height {
+                    width: 100px;
+               }
 
                @include mobile-landscape {
                     width: 80px;
@@ -1119,6 +1195,8 @@ footer {
           height: 50px;
           transition: transform 0.5s ease-in-out;
           cursor: pointer;
+
+
 
           @include mobile-landscape {
                width: 35px;
@@ -1137,12 +1215,30 @@ footer {
                background: url("../assets/images/nav-fullscreen-on.png") no-repeat;
                background-size: contain;
                background-position: center;
+
+               // @include ipad-landscape {
+               //      width: 35px;
+               // }
+
+               @include tablet-landscape-height {
+                    width: 35px;
+                    height: 35px;
+               }
           }
 
           &.offScreen {
                background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
                background-size: contain;
                background-position: center;
+
+               // @include ipad-landscape {
+               //      width: 35px;
+               // }
+
+               @include tablet-landscape-height {
+                    width: 35px;
+                    height: 35px;
+               }
           }
 
           &::after {
@@ -1169,7 +1265,8 @@ footer {
                transition: opacity 0.2s ease;
                margin-top: 4px;
                z-index: 10;
-               @include mobile-landscape{
+
+               @include mobile-landscape {
                     font-size: 8px;
                     left: 20%;
                }

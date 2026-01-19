@@ -91,6 +91,13 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-position: center;
   background-size: contain;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container {
+    height: 60px;
+    margin-bottom: 20px;
+    background-size: 100% 100%;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .header-container {
     height: 50px;
@@ -106,6 +113,16 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   top: 18px;
   justify-content: flex-start;
   align-items: center;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns {
+    top: 5px;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns {
+    top: 10px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns {
@@ -123,6 +140,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   cursor: pointer;
   position: relative;
   transition: transform 0.5s ease-in-out;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns #home {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns #home {
@@ -173,6 +196,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   display: none !important;
   transition: transform 0.5s ease-in-out;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns #info {
+    width: 40px;
+    height: 40px;
+  }
+}
 #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns #info:hover {
   transform: scale(1.125);
 }
@@ -213,6 +242,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   cursor: pointer;
   position: relative;
   transition: transform 0.5s ease-in-out;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns .music {
+    width: 40px;
+    height: 40px;
+  }
 }
 #section-1 .content-holder .col-left .content .content-bg .header-container .navBtns .music:hover {
   transform: scale(1.125);
@@ -262,6 +297,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .header-container .titleText img {
   width: 330px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg .header-container .titleText img {
+    width: 270px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .header-container .titleText img {
     width: 270px;
@@ -303,6 +343,18 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body {
+    height: calc(100% - 110px);
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body {
+    padding: 0 2%;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body {
@@ -436,6 +488,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   font-size: 28px;
   text-align: center;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .instruction {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .instruction {
     font-size: 14px;
@@ -468,6 +526,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   margin: 15px;
   height: 40px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .top-alignText {
+    height: auto;
+    margin: auto;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .top-alignText {
     margin: 7px;
@@ -483,6 +547,16 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: space-around;
   align-items: center;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container {
+    gap: 10px;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container {
+    gap: 15px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container {
     justify-content: space-evenly;
@@ -493,6 +567,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   color: #819da7;
   font-size: 32px;
   text-align: center;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .instruction {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .instruction {
@@ -523,6 +603,18 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-size: contain;
   background-repeat: no-repeat;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box {
+    width: 33%;
+    background-size: 100% 100%;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box {
     width: 180px;
@@ -538,6 +630,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: space-evenly;
   grid-template-columns: repeat(3, 1fr);
   margin-left: 16px;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area {
+    margin-left: 5px;
+    height: 220px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area {
@@ -562,6 +660,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 96px;
   cursor: grab;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #leaf {
+    width: 80px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #leaf {
     width: 50px;
@@ -571,6 +674,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 95px;
   height: 47px;
   cursor: grab;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #stone {
+    width: 90px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #stone {
@@ -582,6 +690,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 83px;
   cursor: grab;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #car {
+    width: 80px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #car {
     width: 60px;
@@ -591,6 +704,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 75px;
   height: 145px;
   cursor: grab;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #chair {
+    width: 50px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #chair {
@@ -602,6 +720,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 107px;
   cursor: grab;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #flower {
+    width: 65px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #flower {
     width: 45px;
@@ -611,6 +734,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 95px;
   height: 45px;
   cursor: grab;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #sponge {
+    width: 70px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .drop-area #sponge {
@@ -625,6 +753,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   font-weight: bold;
   box-sizing: border-box;
   font-family: "Alphakind";
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box .box-title {
+    font-size: 30px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .box .box-title {
@@ -647,10 +780,23 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   background-repeat: no-repeat;
   background-position: center;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
+    height: 100%;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
+    width: 34%;
+    background-size: 100% 100%;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container {
     width: 240px;
     height: 100%;
+    background-size: 100% 100%;
   }
 }
 @media screen and (orientation: landscape) and (max-height: 299px) {
@@ -661,6 +807,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
   width: 96px;
   height: 96px;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
+    width: 55px;
+    height: 55px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #leaf {
@@ -678,6 +830,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 95px;
   height: 47px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #stone {
+    width: 50px;
+    height: 30px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #stone {
     width: 45px;
@@ -692,6 +850,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
   width: 120px;
   height: 83px;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
+    width: 70px;
+    height: 45px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #car {
@@ -708,6 +872,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 62px;
   height: 122px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #chair {
+    width: 40px;
+    height: 65px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #chair {
     width: 32px;
@@ -722,6 +892,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
   width: 80px;
   height: 90px;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
+    width: 45px;
+    height: 50px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #flower {
@@ -738,6 +914,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #sponge {
   width: 95px;
   height: 45px;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #sponge {
+    width: 55px;
+    height: 35px;
+  }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-container .objects-container #sponge {
@@ -855,6 +1037,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   width: 450px;
   height: 400px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game {
+    top: 60%;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game {
     width: 350px;
@@ -871,6 +1058,16 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   height: 315px;
   gap: 30px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game .navBtns {
+    height: 305px;
+  }
+}
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game .navBtns {
+    height: 300px;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game .navBtns {
     width: 350px;
@@ -878,7 +1075,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 240px;
   }
 }
-@media (min-width: 951px) and (max-width: 1080px) and (orientation: landscape) {
+@media (min-width: 951px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .game-completed .game-completed-popup .game .navBtns button {
     width: 35px !important;
     height: 35px !important;
@@ -1006,6 +1203,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 951px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
+    width: 100%;
+  }
+}
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
     width: 110px;
@@ -1015,6 +1217,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media screen and (orientation: landscape) and (max-height: 299px) {
   #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
     height: 50px;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
+  #section-1 .content-holder .col-left .content .content-bg > .body .obj-cont {
+    width: 100%;
+    height: 80px;
   }
 }
 #section-1 .content-holder .overlay {

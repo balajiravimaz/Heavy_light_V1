@@ -26,7 +26,7 @@ $tablet-width-landscape: 951px;
 }
 
 @mixin mobile-landscape {
-  @media (max-width: #{$mobile-width-landscape}) and (orientation: landscape) {
+@media (max-width: #{$mobile-width-landscape}) and (orientation: landscape) { 
     @content;
   }
 }
@@ -44,13 +44,19 @@ $tablet-width-landscape: 951px;
 }
 
 @mixin tablet-landscape {
-  @media (min-width: #{$tablet-width-landscape}) and (max-width: #{$desktop-width}) and (orientation: landscape) {
+  @media (min-width: #{$tablet-width-landscape}) and (orientation: landscape) {
     @content;
   }
 }
 
 @mixin mobile-landscape-height{
   @media screen and (orientation: landscape) and (max-height: 299px){
+    @content;
+  }
+}
+
+@mixin tablet-landscape-height{
+  @media screen and (orientation: landscape) and (min-width: #{$tablet-width-landscape}) and (max-height: 550px){
     @content;
   }
 }

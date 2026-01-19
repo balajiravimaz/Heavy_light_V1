@@ -106,7 +106,7 @@
 						justify-content: center;
 						align-items: center;
 						width: 100%;
-						
+
 
 						.dummypatch {
 							position: absolute;
@@ -179,6 +179,10 @@
 							justify-content: center;
 							height: 100%;
 							margin-bottom: 5%;
+
+							@include tablet-landscape-height {
+								margin-bottom: 0;
+							}
 
 							@include mobile-landscape {
 								width: calc(100% - 0px);
@@ -335,6 +339,13 @@
 									box-sizing: border-box;
 									font-family: "Comic Sans MS", Arial, sans-serif;
 								}
+
+								@include tablet-landscape-height {
+									button {
+										width: 35px;
+										height: 35px;
+									}
+								}
 							}
 
 							.instruction-footer {
@@ -363,14 +374,20 @@
 								align-items: start;
 								justify-content: end;
 
+								@include tablet-landscape-height {
+									height: 90px;
+								}
+
 								@include mobile-landscape {
 									height: 70px;
 									margin-bottom: 10px;
 									position: relative;
 									z-index: 11;
 								}
-								@include mobile-landscape-height{
+
+								@include mobile-landscape-height {
 									margin-bottom: 0px;
+									height: 60px;
 								}
 
 							}
@@ -484,6 +501,10 @@
 		height: 12%;
 		top: 5px;
 		left: 0;
+
+		@include tablet-landscape-height {
+			top: 0;
+		}
 	}
 
 	.home {
@@ -501,6 +522,11 @@
 			border: none;
 			transition: transform 0.5s ease-in;
 			animation: none !important;
+
+			@include tablet-landscape-height {
+				width: 35px;
+				height: 35px;
+			}
 
 			&:hover {
 				transform: scale(1.125);
@@ -783,7 +809,17 @@
 	background-repeat: no-repeat;
 	cursor: pointer;
 
+	@include tablet-landscape-height {
+		width: 40px;
+		height: 40px;
+	}	
+
 	@include mobile-landscape {
+		width: 30px !important;
+		height: 30px !important;
+	}
+
+	@include mobile-landscape-height{
 		width: 30px !important;
 		height: 30px !important;
 	}
@@ -802,7 +838,17 @@
 	background-repeat: no-repeat;
 	cursor: pointer;
 
+	@include tablet-landscape-height {
+		width: 40px;
+		height: 40px;
+	}
+
 	@include mobile-landscape {
+		width: 30px !important;
+		height: 30px !important;
+	}
+
+	@include mobile-landscape-height{
 		width: 30px !important;
 		height: 30px !important;
 	}
@@ -821,9 +867,20 @@
 	background-repeat: no-repeat;
 	cursor: pointer;
 
+	@include tablet-landscape-height {
+		width: 40px;
+		height: 40px;
+	}
+
 	@include mobile-landscape {
 		width: 30px !important;
 		height: 30px !important;
+	}
+
+	@include mobile-landscape-height{
+		width: 30px !important;
+		height: 30px !important;
+		// display: none;
 	}
 
 }

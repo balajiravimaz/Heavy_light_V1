@@ -467,7 +467,7 @@ html {
   font-weight: lighter;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (orientation: landscape) and (min-width: 768px) {
   ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 4px;
@@ -644,6 +644,12 @@ html {
   width: 50px;
   height: 50px;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text #intro-btns .music {
+    width: 35px;
+    height: 35px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .music {
     width: 35px;
@@ -668,6 +674,12 @@ html {
   background: url(../assets/images/pause.png) no-repeat;
   background-size: contain;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text #intro-btns .music.mute {
+    width: 35px;
+    height: 35px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .music.mute {
     width: 35px;
@@ -679,6 +691,12 @@ html {
   height: 50px;
   background: url("../assets/images/info.png") no-repeat;
   background-size: contain;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text #intro-btns .introInfo {
+    width: 35px;
+    height: 35px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #intro-btns .introInfo {
@@ -738,6 +756,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text .intro-text-content {
+    gap: 15px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-text-content {
     gap: 0px;
@@ -756,6 +779,11 @@ html {
   font-weight: normal;
   line-height: 1;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text .intro-header-container {
+    font-size: 80px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-header-container {
     font-size: 52.5px;
@@ -767,6 +795,11 @@ html {
   font-size: 100px;
   box-sizing: border-box;
   font-family: "Alphakind", Arial, sans-serif;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text .intro-header-container span {
+    font-size: 80px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .intro-header-container span {
@@ -781,6 +814,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   animation: slowInFastOut 2s ease-in-out infinite;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text .instruction {
+    height: 60px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text .instruction {
@@ -798,6 +836,12 @@ html {
   background: url("../assets/images/play.png") no-repeat;
   background-size: contain;
   transition: transform 0.5s ease-in;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_start_course #intro #intro-text #f_launchBtn {
+    width: 80px;
+    height: 80px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_start_course #intro #intro-text #f_launchBtn {
@@ -1032,7 +1076,12 @@ html {
   gap: 5px;
   z-index: 11 !important;
   min-width: auto;
-  justify-content: center;
+  justify-content: flex-end;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_wrapper #f_header {
+    height: 40px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_wrapper #f_header {
@@ -1402,6 +1451,11 @@ footer p {
   /* margin-top: 15px; */
   display: block;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header_main #f_companyLogo_main {
+    width: 100px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main #f_companyLogo_main {
     width: 80px;
@@ -1411,6 +1465,11 @@ footer p {
   position: relative;
   width: 130px;
   height: auto;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header_main #f_companyLogo_main img {
+    width: 100px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header_main #f_companyLogo_main img {
@@ -1442,10 +1501,22 @@ footer p {
   background-size: contain;
   background-position: center;
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header_main .full-screen.fullScreen {
+    width: 35px;
+    height: 35px;
+  }
+}
 #f_header_main .full-screen.offScreen {
   background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
   background-size: contain;
   background-position: center;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header_main .full-screen.offScreen {
+    width: 35px;
+    height: 35px;
+  }
 }
 #f_header_main .full-screen::after {
   content: attr(data-tooltip);
@@ -1797,6 +1868,14 @@ footer p {
       background: #ffe600;
   }*/
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header #f_companyLogo {
+    width: 100px;
+  }
+  #f_header #f_companyLogo img {
+    width: 100px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header #f_companyLogo {
     width: 80px;
@@ -1807,6 +1886,11 @@ footer p {
   position: relative;
   width: 130px;
   height: auto;
+}
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header #f_companyLogo .logo-bg-patch img {
+    width: 100px;
+  }
 }
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header #f_companyLogo .logo-bg-patch img {
@@ -1822,15 +1906,16 @@ footer p {
   top: 2px;
   /* Show tooltip on hover */
 }
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 500px) {
+  #f_header .full-screen {
+    width: 35px;
+    height: 35px;
+  }
+}
 @media (min-width: 320px) and (max-width: 950px) and (orientation: landscape) {
   #f_header .full-screen {
     width: 35px;
-    top: 0px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  #f_header .full-screen {
-    width: 35px;
+    height: 35px;
     top: 0px;
   }
 }
@@ -1843,12 +1928,10 @@ footer p {
 #f_header .full-screen.fullScreen {
   background: url("../assets/images/nav-fullscreen-on.png") no-repeat;
   background-size: contain;
-  background-position: center;
 }
 #f_header .full-screen.offScreen {
   background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
   background-size: contain;
-  background-position: center;
 }
 #f_header .full-screen::after {
   content: attr(data-tooltip);

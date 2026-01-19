@@ -11,6 +11,13 @@
     justify-content: center;
     gap: 10px;
 
+    @include tablet-landscape-height{
+      width: 100px;
+      img{
+        width: 100px;
+      }
+    }
+
     @include mobile-landscape {
       width: 80px;
       justify-content: flex-end;
@@ -34,6 +41,10 @@
         width: 130px;
         height: auto;
 
+        @include tablet-landscape-height{
+          width: 100px;
+        }
+
         @include mobile-landscape {
           width: 80px;
         }
@@ -51,15 +62,22 @@
     cursor: pointer;
     top: 2px;
 
+    @include tablet-landscape-height{
+      width: 35px;
+      height: 35px;
+    }
+
     @include mobile-landscape {
       width: 35px;
+      height: 35px;
       top: 0px;
     }
 
-    @include ipad-landscape {
-      width: 35px;
-      top: 0px;
-    }
+    // @include ipad-landscape {
+    //   width: 35px;
+    //   top: 0px;
+    //   background-position: center;
+    // }
 
     &:disabled {
       pointer-events: none;
@@ -72,13 +90,25 @@
     &.fullScreen {
       background: url("../assets/images/nav-fullscreen-on.png") no-repeat;
       background-size: contain;
-      background-position: center;
+      // @include ipad-landscape{
+      //   background-position: center;
+      // }
+      @include tablet-landscape-height{
+        // background-position: center;
+      }
+      // background-position: center;
     }
 
     &.offScreen {
       background: url("../assets/images/nav-fullscreen-off.png") no-repeat;
       background-size: contain;
-      background-position: center;
+      // @include ipad-landscape{
+      //   background-position: center;
+      // }
+      @include tablet-landscape-height{
+        // background-position: center;
+      }
+      // background-position: center;
     }
 
     &::after {

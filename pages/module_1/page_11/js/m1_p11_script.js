@@ -354,13 +354,19 @@ $(document).on('touchstart', '.object', function (e) {
 $(document).on('touchmove', function (e) {
     if (!touchDraggedEl) return;
     const touch = e.originalEvent.touches[0];
+
+    // Set position normally
     $(touchDraggedEl).css({
         position: 'absolute',
         left: touch.pageX - $(touchDraggedEl).width() / 2,
         top: touch.pageY - $(touchDraggedEl).height() / 2,
         zIndex: 9999
     });
+
+    // Force opacity:0 with !important
+    touchDraggedEl.style.setProperty('opacity', '0', 'important');
 });
+
 
 $(document).on('touchend', function (e) {
     if (!touchDraggedEl) return;
@@ -372,10 +378,13 @@ $(document).on('touchend', function (e) {
         handleDrop(touchDraggedEl.id, $(dropTarget));
     }
 
-    // Reset dragged element position
+    touchDraggedEl.style.setProperty('opacity', '1', 'important');
     $(touchDraggedEl).css({ position: '', left: '', top: '', zIndex: '' });
     touchDraggedEl = null;
+
 });
+
+
 
 /* ================= COMMON DROP HANDLER ================= */
 function handleDrop(draggedId, $dropArea) {
