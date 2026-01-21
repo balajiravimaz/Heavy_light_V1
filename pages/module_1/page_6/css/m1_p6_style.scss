@@ -44,6 +44,10 @@
 		margin: 0px auto;
 		overflow: hidden;
 
+		@include tablet-landscape {
+			max-width: 100%;
+		}
+
 		.col-left {
 			position: relative;
 			// width: calc(100% - 100px);
@@ -202,11 +206,11 @@
 							}
 
 							@include tablet-landscape {
-								background-size: cover;
+								background-size: 100% 100%;
 							}
 
 							@include mobile-landscape {
-								background-size: cover;
+								background-size: 100% 100%;
 								padding: 0 20px;
 								height: 60px;
 							}
@@ -223,6 +227,11 @@
 
 								@include tablet-landscape-height {
 									top: 15px;
+								}
+
+								@include mobile-landscape {
+									padding: 0 15px;
+									top: 10px;
 								}
 
 								#home {
@@ -276,11 +285,15 @@
 									transition: transform 0.5s ease-in;
 
 
-									@include tablet-landscape {
-										width: 35px !important;
-										height: 35px !important;
-									}
+									// @include tablet-landscape {
+									// 	width: 35px !important;
+									// 	height: 35px !important;
+									// }
 
+									@include tablet-landscape-height {
+										width: 40px !important;
+										height: 40px !important;
+									}
 
 									@include mobile-landscape {
 										width: 35px !important;
@@ -741,6 +754,7 @@
 
 									@include mobile-landscape {
 										top: 83%;
+										gap: 20px;
 									}
 
 									#refresh {

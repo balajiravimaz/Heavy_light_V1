@@ -43,6 +43,9 @@
 		margin: 0px auto;
 		overflow: hidden;
 		background-color: #fff;
+		@include tablet-landscape{
+			max-width: 100%;
+		}
 
 		.col-left {
 			position: relative;
@@ -64,7 +67,7 @@
 					.header-container {
 						background-image: url(../images/header.png);
 						width: 100%;
-						height: 80px;
+						height: 100px;
 						display: flex;
 						justify-content: center;
 						align-items: center;
@@ -81,6 +84,7 @@
 						@include mobile-landscape {
 							height: 50px;
 							margin-bottom: 10px;
+							background-size: 100% 100%;
 						}
 
 						.navBtns {
@@ -558,6 +562,10 @@
 							align-items: center;
 							margin: 15px;
 							height: 40px;
+
+							@include tablet-landscape{
+								height: 20px;
+							}
 
 							@include tablet-landscape-height {
 								height: auto;
@@ -1067,6 +1075,7 @@
 									transform: translate(-50%, -50%);
 									width: 450px;
 									height: 400px;
+									background-position: center;
 
 									@include tablet-landscape-height {
 										top: 60%;
@@ -1091,24 +1100,20 @@
 											height: 305px;
 										}
 										@include tablet-landscape{
-											height: 300px;
+											height: 360px;
 										}
 
 										@include mobile-landscape {
 											width: 350px;
 											gap: 20px;
-											height: 240px;
+											height: 245px;
 										}
 
-										button {
-											@include tablet-landscape {
-												width: 35px !important;
-												height: 35px !important;
-											}
+										button {											
 
 											@include mobile-landscape {
-												width: 35px !important;
-												height: 35px !important;
+												width: 40px !important;
+												height: 40px !important;
 											}
 										}
 									}

@@ -58,6 +58,11 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   margin: 0px auto;
   overflow: hidden;
 }
+@media (min-width: 951px) and (orientation: landscape) and (hover: none) {
+  #section-1 .content-holder {
+    max-width: 100%;
+  }
+}
 #section-1 .content-holder .col-left {
   position: relative;
   height: 100%;
@@ -201,14 +206,14 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
     height: 70px;
   }
 }
-@media (min-width: 951px) and (orientation: landscape) {
+@media (min-width: 951px) and (orientation: landscape) and (hover: none) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header {
-    background-size: cover;
+    background-size: 100% 100%;
   }
 }
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header {
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 0 20px;
     height: 60px;
   }
@@ -226,6 +231,12 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns {
     top: 15px;
+  }
+}
+@media (max-width: 950px) and (orientation: landscape) {
+  #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns {
+    padding: 0 15px;
+    top: 10px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns #home {
@@ -272,10 +283,10 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   transition: transform 0.5s ease-in;
   /* Show tooltip on hover */
 }
-@media (min-width: 951px) and (orientation: landscape) {
+@media screen and (orientation: landscape) and (min-width: 951px) and (max-height: 550px) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header .navBtns button {
-    width: 35px !important;
-    height: 35px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 }
 @media (max-width: 950px) and (orientation: landscape) {
@@ -318,7 +329,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 #section-1 .content-holder .col-left .content .content-bg .content-style .header .titleText img {
   width: 300px;
 }
-@media (min-width: 951px) and (orientation: landscape) {
+@media (min-width: 951px) and (orientation: landscape) and (hover: none) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .header .titleText img {
     width: 250px;
   }
@@ -695,6 +706,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
 @media (max-width: 950px) and (orientation: landscape) {
   #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns {
     top: 83%;
+    gap: 20px;
   }
 }
 #section-1 .content-holder .col-left .content .content-bg .content-style .popup .popup-wrap .popBtns #refresh {
@@ -880,7 +892,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   transition: transform 0.5s ease-in-out;
   /* Show tooltip on hover */
 }
-@media (min-width: 951px) and (orientation: landscape) {
+@media (min-width: 951px) and (orientation: landscape) and (hover: none) {
   #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content .introPopclose {
     right: 100px;
     top: 20px;
@@ -934,7 +946,7 @@ $bg-position: -120px -120px, 0 0, 20px 50px, 25px 55px, 50px 125px;*/
   cursor: pointer;
   transition: transform 0.5s ease-in-out;
 }
-@media (min-width: 951px) and (orientation: landscape) {
+@media (min-width: 951px) and (orientation: landscape) and (hover: none) {
   #section-1 .content-holder .col-left .content .content-bg .content-style #introPopup-1 .popup-content .introPopAudio {
     top: 30px;
     left: 75px;

@@ -44,6 +44,10 @@
 		margin: 0px auto;
 		overflow: hidden;
 
+		@include tablet-landscape {
+			max-width: 100%;
+		}
+
 		.col-left {
 			position: relative;
 			// width: calc(100% - 100px);
@@ -203,13 +207,13 @@
 							}
 
 							@include tablet-landscape {
-								background-size: cover;
+								background-size: 100% 100%;
 							}
 
 							@include mobile-landscape {
 								height: 60px;
 								padding: 0 20px;
-								background-size: cover;
+								background-size: 100% 100%;
 							}
 
 							// @include tablet-landscape{
@@ -222,12 +226,16 @@
 								padding: 0 20px;
 								display: flex;
 								gap: 10px;
-								top: 7px;
+								top: 18px;
 								justify-content: flex-start;
 								align-items: center;
 
 								@include tablet-landscape-height {
 									top: 10px
+								}
+
+								@include mobile-landscape {
+									top: 10px;
 								}
 
 								#home {
@@ -303,9 +311,13 @@
 
 
 
-									@include tablet-landscape {
-										width: 35px !important;
-										height: 35px !important;
+									// @include tablet-landscape {
+									// 	width: 35px !important;
+									// 	height: 35px !important;
+									// }
+									@include tablet-landscape-height {
+										width: 40px !important;
+										height: 40px !important;
 									}
 
 									@include mobile-landscape {
@@ -1103,7 +1115,7 @@
 										}
 
 										@include tablet-landscape {
-											padding: 25px 20px;
+											padding: 25px 25px;
 										}
 
 										@include mobile-landscape {
@@ -1179,7 +1191,8 @@
 										.btn {
 											background: transparent;
 											cursor: pointer;
-											width: 100px;
+											width: 110px;
+
 											height: 70px;
 											position: relative;
 
@@ -1211,7 +1224,7 @@
 												// width: 70px;
 												// max-width: 65px;
 												height: 50px;
-												width: 120px;
+												width: 110px;
 											}
 
 											@include mobile-landscape {
@@ -1394,8 +1407,10 @@
 									align-items: center;
 									gap: 30px;
 
+
 									@include mobile-landscape {
 										top: 83%;
+										gap: 20px;
 									}
 
 									#refresh {
